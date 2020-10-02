@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/camera_auto_mode.png</file>
+        <file>images/camera_camera_setting.png</file>
+        <file>images/camera_flash_auto.png</file>
+        <file>images/camera_flash_fill.png</file>
+        <file>images/camera_flash_off.png</file>
+        <file>images/camera_flash_redeye.png</file>
+        <file>images/camera_white_balance_cloudy.png</file>
+        <file>images/camera_white_balance_flourescent.png</file>
+        <file>images/camera_white_balance_incandescent.png</file>
+        <file>images/camera_white_balance_sunny.png</file>
+        <file>images/toolbutton.png</file>
+        <file>images/toolbutton.sci</file>
+        <file>widgets/CameraButton.qml</file>
+        <file>widgets/CameraListButton.qml</file>
+        <file>widgets/CameraListPopup.qml</file>
+        <file>widgets/CameraPropertyButton.qml</file>
+        <file>widgets/CameraPropertyPopup.qml</file>
+        <file>widgets/FocusButton.qml</file>
+        <file>widgets/PhotoCaptureControls.qml</file>
+        <file>widgets/PhotoPreview.qml</file>
+        <file>widgets/Popup.qml</file>
+        <file>widgets/VideoCaptureControls.qml</file>
+        <file>widgets/VideoPreview.qml</file>
+        <file>widgets/ZoomControl.qml</file>
+        <file>main.qml</file>
+    </qresource>
+</RCC>
