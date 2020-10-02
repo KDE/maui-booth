@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component type="desktop">
+  <id>org.kde.index.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LGPL-3.0</project_license>
+  <name>Booth</name>
+  <summary>Take pictures and videos</summary>
+  <description>
+    <p>Booth is a convergent camera app.</p>
+  </description>
+  <url type="homepage">https://mauikit.org/</url>
+  <url type="bugtracker">https://invent.kde.org/maui/booth/-/issues</url>
+  <url type="donation">https://www.kde.org/community/donations</url>
+  <url type="help">https://docs.kde.org/trunk5/en/extragear-multimedia/vvave/</url>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Booth camera app</caption>
+      <image type="source" width="1048" height="631">
+        https://invent.kde.org/websites/product-screenshots/-/raw/master/index/index.png
+      </image>
+    </screenshot>
+  </screenshots>
+  <provides>
+    <binary>booth</binary>
+  </provides>
+  <project_group>KDE</project_group>
+  <releases>
+    <release version="0.1.0" date="2018-09-06"/>
+  </releases>
+</component>
