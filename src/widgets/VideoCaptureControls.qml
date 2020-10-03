@@ -85,12 +85,6 @@ FocusScope {
             }
 
             CameraButton {
-                text: "Record"
-                visible: camera.videoRecorder.recorderStatus == CameraRecorder.LoadedStatus
-                onClicked: camera.videoRecorder.record()
-            }
-
-            CameraButton {
                 id: stopButton
                 text: "Stop"
                 visible: camera.videoRecorder.recorderStatus == CameraRecorder.RecordingStatus

@@ -84,12 +84,6 @@ FocusScope {
                 visible: camera.cameraStatus == Camera.ActiveStatus && camera.focus.isFocusModeSupported(Camera.FocusAuto)
             }
 
-            CameraButton {
-                text: "Capture"
-                visible: camera.imageCapture.ready
-                onClicked: camera.imageCapture.capture()
-            }
-
             CameraPropertyButton {
                 id : wbModesButton
                 value: CameraImageProcessing.WhiteBalanceAuto
@@ -145,16 +139,6 @@ FocusScope {
                 onValueChanged: captureControls.camera.deviceId = value
             }
 
-            CameraButton {
-                text: "Switch to Video"
-                onClicked: captureControls.videoModeSelected()
-            }
-
-            CameraButton {
-                id: quitButton
-                text: "Quit"
-                onClicked: Qt.quit()
-            }
         }
 
 

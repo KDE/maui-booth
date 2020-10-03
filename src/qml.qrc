@@ -25,5 +25,7 @@
         <file>widgets/VideoPreview.qml</file>
         <file>widgets/ZoomControl.qml</file>
         <file>main.qml</file>
+        <file>assets/booth.png</file>
+        <file>assets/booth.svg</file>
     </qresource>
 </RCC>
