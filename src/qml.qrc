@@ -27,5 +27,6 @@
         <file>main.qml</file>
         <file>assets/booth.png</file>
         <file>assets/booth.svg</file>
+        <file>views/roll/RollView.qml</file>
     </qresource>
 </RCC>
