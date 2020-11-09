@@ -6,13 +6,28 @@
 
 [Desktop Entry]
 Name=Booth
+Name[ca]=Booth
+Name[pt]=Cabine
+Name[sv]=Booth
+Name[uk]=Booth
+Name[x-test]=xxBoothxx
 Comment=Convergent camera app
+Comment[ca]=Aplicació convergent de càmera
+Comment[pt]=Aplicação de câmara convergente
+Comment[sv]=Konvergerande kameraprogram
+Comment[uk]=Універсальна програма для роботи з камерою
+Comment[x-test]=xxConvergent camera appxx
 TryExec=booth
 Exec=booth %U
 Terminal=false
 Type=Application
 Categories=Qt;KDE;Multimedia;
 GenericName=Camera App
+GenericName[ca]=Aplicació de càmera
+GenericName[pt]=Aplicação de Câmara
+GenericName[sv]=Kameraprogram
+GenericName[uk]=Програма для роботи з камерою
+GenericName[x-test]=xxCamera Appxx
 StartupNotify=true
 Icon=kamoso
 #MimeType=inode/directory;
