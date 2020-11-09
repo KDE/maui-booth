@@ -4,9 +4,21 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LGPL-3.0</project_license>
   <name>Booth</name>
+  <name xml:lang="ca">Booth</name>
+  <name xml:lang="pt">Cabine</name>
+  <name xml:lang="sv">Booth</name>
+  <name xml:lang="uk">Booth</name>
   <summary>Take pictures and videos</summary>
+  <summary xml:lang="ca">Pren fotografies o vídeos</summary>
+  <summary xml:lang="pt">Tirar fotografias e vídeos</summary>
+  <summary xml:lang="sv">Ta bilder och videor</summary>
+  <summary xml:lang="uk">Створення зображень та відео</summary>
   <description>
     <p>Booth is a convergent camera app.</p>
+    <p xml:lang="ca">Booth és una aplicació convergent de càmera.</p>
+    <p xml:lang="pt">A Cabine é uma aplicação de câmara convergente.</p>
+    <p xml:lang="sv">Booth är ett konvergerande kameraprogram</p>
+    <p xml:lang="uk">Booth — універсальна програма для роботи з камерою.</p>
   </description>
   <url type="homepage">https://mauikit.org/</url>
   <url type="bugtracker">https://invent.kde.org/maui/booth/-/issues</url>
@@ -15,6 +27,10 @@
   <screenshots>
     <screenshot type="default">
       <caption>Booth camera app</caption>
+      <caption xml:lang="ca">Aplicació de càmera Booth</caption>
+      <caption xml:lang="pt">Aplicação de câmara Cabine</caption>
+      <caption xml:lang="sv">Booth kameraprogram</caption>
+      <caption xml:lang="uk">Програма для роботи з камерою Booth</caption>
       <image type="source" width="1048" height="631">
         https://invent.kde.org/websites/product-screenshots/-/raw/master/index/index.png
       </image>
