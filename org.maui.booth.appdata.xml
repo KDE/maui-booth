@@ -5,20 +5,31 @@
   <project_license>LGPL-3.0</project_license>
   <name>Booth</name>
   <name xml:lang="ca">Booth</name>
+  <name xml:lang="es">Booth</name>
+  <name xml:lang="nl">Booth</name>
   <name xml:lang="pt">Cabine</name>
+  <name xml:lang="sk">Booth</name>
   <name xml:lang="sv">Booth</name>
   <name xml:lang="uk">Booth</name>
+  <name xml:lang="x-test">xxBoothxx</name>
   <summary>Take pictures and videos</summary>
   <summary xml:lang="ca">Pren fotografies o vídeos</summary>
+  <summary xml:lang="nl">Foto's en video's maken</summary>
   <summary xml:lang="pt">Tirar fotografias e vídeos</summary>
+  <summary xml:lang="sk">Tvorba fotiek a videa</summary>
   <summary xml:lang="sv">Ta bilder och videor</summary>
   <summary xml:lang="uk">Створення зображень та відео</summary>
+  <summary xml:lang="x-test">xxTake pictures and videosxx</summary>
   <description>
     <p>Booth is a convergent camera app.</p>
     <p xml:lang="ca">Booth és una aplicació convergent de càmera.</p>
+    <p xml:lang="es">Booth es una aplicación de cámara convergente.</p>
+    <p xml:lang="nl">Booth is een convergente camera-toepassing.</p>
     <p xml:lang="pt">A Cabine é uma aplicação de câmara convergente.</p>
+    <p xml:lang="sk">Booth je konvergentná fotografická aplikácia</p>
     <p xml:lang="sv">Booth är ett konvergerande kameraprogram</p>
     <p xml:lang="uk">Booth — універсальна програма для роботи з камерою.</p>
+    <p xml:lang="x-test">xxBooth is a convergent camera app.xx</p>
   </description>
   <url type="homepage">https://mauikit.org/</url>
   <url type="bugtracker">https://invent.kde.org/maui/booth/-/issues</url>
@@ -28,9 +39,13 @@
     <screenshot type="default">
       <caption>Booth camera app</caption>
       <caption xml:lang="ca">Aplicació de càmera Booth</caption>
+      <caption xml:lang="es">Aplicación de cámara Booth</caption>
+      <caption xml:lang="nl">Booth camera-toepassing</caption>
       <caption xml:lang="pt">Aplicação de câmara Cabine</caption>
+      <caption xml:lang="sk">Fotografická aplikácia Booth</caption>
       <caption xml:lang="sv">Booth kameraprogram</caption>
       <caption xml:lang="uk">Програма для роботи з камерою Booth</caption>
+      <caption xml:lang="x-test">xxBooth camera appxx</caption>
       <image type="source" width="1048" height="631">
         https://invent.kde.org/websites/product-screenshots/-/raw/master/index/index.png
       </image>
