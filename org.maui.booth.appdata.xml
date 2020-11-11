@@ -9,14 +9,17 @@
   <name xml:lang="nl">Booth</name>
   <name xml:lang="pt">Cabine</name>
   <name xml:lang="sk">Booth</name>
+  <name xml:lang="sl">Stojnica</name>
   <name xml:lang="sv">Booth</name>
   <name xml:lang="uk">Booth</name>
   <name xml:lang="x-test">xxBoothxx</name>
   <summary>Take pictures and videos</summary>
   <summary xml:lang="ca">Pren fotografies o vídeos</summary>
+  <summary xml:lang="es">Hacer fotos y vídeos</summary>
   <summary xml:lang="nl">Foto's en video's maken</summary>
   <summary xml:lang="pt">Tirar fotografias e vídeos</summary>
   <summary xml:lang="sk">Tvorba fotiek a videa</summary>
+  <summary xml:lang="sl">Posnemi fotografije in videe</summary>
   <summary xml:lang="sv">Ta bilder och videor</summary>
   <summary xml:lang="uk">Створення зображень та відео</summary>
   <summary xml:lang="x-test">xxTake pictures and videosxx</summary>
@@ -27,6 +30,7 @@
     <p xml:lang="nl">Booth is een convergente camera-toepassing.</p>
     <p xml:lang="pt">A Cabine é uma aplicação de câmara convergente.</p>
     <p xml:lang="sk">Booth je konvergentná fotografická aplikácia</p>
+    <p xml:lang="sl">Stojnica je konvergentna aplikacija kamere.</p>
     <p xml:lang="sv">Booth är ett konvergerande kameraprogram</p>
     <p xml:lang="uk">Booth — універсальна програма для роботи з камерою.</p>
     <p xml:lang="x-test">xxBooth is a convergent camera app.xx</p>
@@ -43,6 +47,7 @@
       <caption xml:lang="nl">Booth camera-toepassing</caption>
       <caption xml:lang="pt">Aplicação de câmara Cabine</caption>
       <caption xml:lang="sk">Fotografická aplikácia Booth</caption>
+      <caption xml:lang="sl">Stojnica aplikacija kamere</caption>
       <caption xml:lang="sv">Booth kameraprogram</caption>
       <caption xml:lang="uk">Програма для роботи з камерою Booth</caption>
       <caption xml:lang="x-test">xxBooth camera appxx</caption>
