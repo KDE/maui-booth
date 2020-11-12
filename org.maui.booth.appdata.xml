@@ -6,7 +6,9 @@
   <name>Booth</name>
   <name xml:lang="ca">Booth</name>
   <name xml:lang="es">Booth</name>
+  <name xml:lang="it">Booth</name>
   <name xml:lang="nl">Booth</name>
+  <name xml:lang="nn">Booth</name>
   <name xml:lang="pt">Cabine</name>
   <name xml:lang="sk">Booth</name>
   <name xml:lang="sl">Stojnica</name>
@@ -16,7 +18,9 @@
   <summary>Take pictures and videos</summary>
   <summary xml:lang="ca">Pren fotografies o vídeos</summary>
   <summary xml:lang="es">Hacer fotos y vídeos</summary>
+  <summary xml:lang="it">Scatta fotografie e riprendi video</summary>
   <summary xml:lang="nl">Foto's en video's maken</summary>
+  <summary xml:lang="nn">Ta foto og videoopptak</summary>
   <summary xml:lang="pt">Tirar fotografias e vídeos</summary>
   <summary xml:lang="sk">Tvorba fotiek a videa</summary>
   <summary xml:lang="sl">Posnemi fotografije in videe</summary>
@@ -27,7 +31,9 @@
     <p>Booth is a convergent camera app.</p>
     <p xml:lang="ca">Booth és una aplicació convergent de càmera.</p>
     <p xml:lang="es">Booth es una aplicación de cámara convergente.</p>
+    <p xml:lang="it">Booth è un'app convergente per fotocamera.</p>
     <p xml:lang="nl">Booth is een convergente camera-toepassing.</p>
+    <p xml:lang="nn">Boorth er ein konvergent kameraapp.</p>
     <p xml:lang="pt">A Cabine é uma aplicação de câmara convergente.</p>
     <p xml:lang="sk">Booth je konvergentná fotografická aplikácia</p>
     <p xml:lang="sl">Stojnica je konvergentna aplikacija kamere.</p>
@@ -44,7 +50,9 @@
       <caption>Booth camera app</caption>
       <caption xml:lang="ca">Aplicació de càmera Booth</caption>
       <caption xml:lang="es">Aplicación de cámara Booth</caption>
+      <caption xml:lang="it">App fotocamera Booth</caption>
       <caption xml:lang="nl">Booth camera-toepassing</caption>
+      <caption xml:lang="nn">Booth kameraapp</caption>
       <caption xml:lang="pt">Aplicação de câmara Cabine</caption>
       <caption xml:lang="sk">Fotografická aplikácia Booth</caption>
       <caption xml:lang="sl">Stojnica aplikacija kamere</caption>
