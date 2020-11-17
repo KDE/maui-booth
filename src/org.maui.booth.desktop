@@ -7,6 +7,7 @@
 [Desktop Entry]
 Name=Booth
 Name[ca]=Booth
+Name[ca@valencia]=Booth
 Name[es]=Booth
 Name[it]=Booth
 Name[nl]=Booth
@@ -19,6 +20,7 @@ Name[uk]=Booth
 Name[x-test]=xxBoothxx
 Comment=Convergent camera app
 Comment[ca]=Aplicació convergent de càmera
+Comment[ca@valencia]=Aplicació convergent de càmera
 Comment[es]=Aplicación de cámara convergente
 Comment[it]=App convergente per fotocamera
 Comment[nl]=Convergente camera-toepassing
@@ -36,6 +38,7 @@ Type=Application
 Categories=Qt;KDE;Multimedia;
 GenericName=Camera App
 GenericName[ca]=Aplicació de càmera
+GenericName[ca@valencia]=Aplicació de càmera
 GenericName[es]=Aplicación de cámara
 GenericName[it]=App per la fotocamera
 GenericName[nl]=Camera-toepassing
