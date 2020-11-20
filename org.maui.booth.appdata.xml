@@ -7,6 +7,7 @@
   <name xml:lang="ca">Booth</name>
   <name xml:lang="ca-valencia">Booth</name>
   <name xml:lang="es">Booth</name>
+  <name xml:lang="fr">Booth</name>
   <name xml:lang="it">Booth</name>
   <name xml:lang="nl">Booth</name>
   <name xml:lang="nn">Booth</name>
@@ -20,6 +21,7 @@
   <summary xml:lang="ca">Pren fotografies o vídeos</summary>
   <summary xml:lang="ca-valencia">Pren fotografies o vídeos</summary>
   <summary xml:lang="es">Hacer fotos y vídeos</summary>
+  <summary xml:lang="fr">Prendre des images et des vidéos</summary>
   <summary xml:lang="it">Scatta fotografie e riprendi video</summary>
   <summary xml:lang="nl">Foto's en video's maken</summary>
   <summary xml:lang="nn">Ta foto og videoopptak</summary>
@@ -34,6 +36,7 @@
     <p xml:lang="ca">Booth és una aplicació convergent de càmera.</p>
     <p xml:lang="ca-valencia">Booth és una aplicació convergent de càmera.</p>
     <p xml:lang="es">Booth es una aplicación de cámara convergente.</p>
+    <p xml:lang="fr">Booth est une application de caméra convergente.</p>
     <p xml:lang="it">Booth è un'app convergente per fotocamera.</p>
     <p xml:lang="nl">Booth is een convergente camera-toepassing.</p>
     <p xml:lang="nn">Boorth er ein konvergent kameraapp.</p>
@@ -54,6 +57,7 @@
       <caption xml:lang="ca">Aplicació de càmera Booth</caption>
       <caption xml:lang="ca-valencia">Aplicació de càmera Booth</caption>
       <caption xml:lang="es">Aplicación de cámara Booth</caption>
+      <caption xml:lang="fr">Booth, une application de caméra</caption>
       <caption xml:lang="it">App fotocamera Booth</caption>
       <caption xml:lang="nl">Booth camera-toepassing</caption>
       <caption xml:lang="nn">Booth kameraapp</caption>
