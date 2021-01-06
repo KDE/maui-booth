@@ -1,7 +1,7 @@
 # Booth
 Maui Camera App
 
-Booth is a convergent camera app, to record videos and take pictures and sync your cmera photos.
+Booth is a convergent camera app, to record videos and take pictures and sync your camera photos.
 
 ### Compilation
 
