@@ -86,13 +86,13 @@ FocusScope {
 
             CameraButton {
                 id: stopButton
-                text: "Stop"
+                text: i18n("Stop")
                 visible: camera.videoRecorder.recorderStatus == CameraRecorder.RecordingStatus
                 onClicked: camera.videoRecorder.stop()
             }
 
             CameraButton {
-                text: "View"
+                text: i18n("View")
                 onClicked: captureControls.previewSelected()
                 //don't show View button during recording
                 visible: camera.videoRecorder.actualLocation && !stopButton.visible
@@ -115,13 +115,13 @@ FocusScope {
             }
 
             CameraButton {
-                text: "Switch to Photo"
+                text: i18n("Switch to Photo")
                 onClicked: captureControls.photoModeSelected()
             }
 
             CameraButton {
                 id: quitButton
-                text: "Quit"
+                text: i18n("Quit")
                 onClicked: Qt.quit()
             }
         }

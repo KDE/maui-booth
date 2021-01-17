@@ -91,34 +91,34 @@ FocusScope {
                     ListElement {
                         icon: "images/camera_auto_mode.png"
                         value: CameraImageProcessing.WhiteBalanceAuto
-                        text: "Auto"
+                        text: i18n("Auto")
                     }
                     ListElement {
                         icon: "images/camera_white_balance_sunny.png"
                         value: CameraImageProcessing.WhiteBalanceSunlight
-                        text: "Sunlight"
+                        text: i18n("Sunlight")
                     }
                     ListElement {
                         icon: "images/camera_white_balance_cloudy.png"
                         value: CameraImageProcessing.WhiteBalanceCloudy
-                        text: "Cloudy"
+                        text: i18n("Cloudy")
                     }
                     ListElement {
                         icon: "images/camera_white_balance_incandescent.png"
                         value: CameraImageProcessing.WhiteBalanceTungsten
-                        text: "Tungsten"
+                        text: i18n("Tungsten")
                     }
                     ListElement {
                         icon: "images/camera_white_balance_flourescent.png"
                         value: CameraImageProcessing.WhiteBalanceFluorescent
-                        text: "Fluorescent"
+                        text: i18n("Fluorescent")
                     }
                 }
                 onValueChanged: captureControls.camera.imageProcessing.whiteBalanceMode = wbModesButton.value
             }
 
             CameraButton {
-                text: "View"
+                text: i18n("View")
                 onClicked: captureControls.previewSelected()
                 visible: captureControls.previewAvailable
             }
