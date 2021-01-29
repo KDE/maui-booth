@@ -59,7 +59,6 @@
   <url type="homepage">https://mauikit.org/</url>
   <url type="bugtracker">https://invent.kde.org/maui/booth/-/issues</url>
   <url type="donation">https://www.kde.org/community/donations</url>
-  <url type="help">https://docs.kde.org/trunk5/en/extragear-multimedia/vvave/</url>
   <screenshots>
     <screenshot type="default">
       <caption>Booth camera app</caption>
