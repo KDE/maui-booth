@@ -14,6 +14,7 @@
   <name xml:lang="it">Booth</name>
   <name xml:lang="nl">Booth</name>
   <name xml:lang="nn">Booth</name>
+  <name xml:lang="pl">Booth</name>
   <name xml:lang="pt">Cabine</name>
   <name xml:lang="sk">Booth</name>
   <name xml:lang="sl">Stojnica</name>
@@ -31,6 +32,7 @@
   <summary xml:lang="it">Scatta fotografie e riprendi video</summary>
   <summary xml:lang="nl">Foto's en video's maken</summary>
   <summary xml:lang="nn">Ta foto og videoopptak</summary>
+  <summary xml:lang="pl">Rób zdjęcia i nagrywaj filmy</summary>
   <summary xml:lang="pt">Tirar fotografias e vídeos</summary>
   <summary xml:lang="sk">Tvorba fotiek a videa</summary>
   <summary xml:lang="sl">Posnemi fotografije in videe</summary>
@@ -49,6 +51,7 @@
     <p xml:lang="it">Booth è un'app convergente per fotocamera.</p>
     <p xml:lang="nl">Booth is een convergente camera-toepassing.</p>
     <p xml:lang="nn">Boorth er ein konvergent kameraapp.</p>
+    <p xml:lang="pl">Booth jest programem do obsługi kamery.</p>
     <p xml:lang="pt">A Cabine é uma aplicação de câmara convergente.</p>
     <p xml:lang="sk">Booth je konvergentná fotografická aplikácia</p>
     <p xml:lang="sl">Stojnica je konvergentna aplikacija kamere.</p>
@@ -72,6 +75,7 @@
       <caption xml:lang="it">App fotocamera Booth</caption>
       <caption xml:lang="nl">Booth camera-toepassing</caption>
       <caption xml:lang="nn">Booth kameraapp</caption>
+      <caption xml:lang="pl">Aplikacja budki do robienia zdjęć</caption>
       <caption xml:lang="pt">Aplicação de câmara Cabine</caption>
       <caption xml:lang="sk">Fotografická aplikácia Booth</caption>
       <caption xml:lang="sl">Stojnica aplikacija kamere</caption>
