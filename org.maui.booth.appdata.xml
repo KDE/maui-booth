@@ -7,6 +7,7 @@
   <name xml:lang="ca">Booth</name>
   <name xml:lang="ca-valencia">Booth</name>
   <name xml:lang="cs">Booth</name>
+  <name xml:lang="de">Booth</name>
   <name xml:lang="en-GB">Booth</name>
   <name xml:lang="es">Booth</name>
   <name xml:lang="fi">Booth</name>
@@ -25,6 +26,7 @@
   <summary>Take pictures and videos</summary>
   <summary xml:lang="ca">Pren fotografies o vídeos</summary>
   <summary xml:lang="ca-valencia">Pren fotografies o vídeos</summary>
+  <summary xml:lang="de">Bilder und Videos aufnehmen</summary>
   <summary xml:lang="en-GB">Take pictures and videos</summary>
   <summary xml:lang="es">Hacer fotos y vídeos</summary>
   <summary xml:lang="fi">Kuvaa valokuvia ja videoita</summary>
