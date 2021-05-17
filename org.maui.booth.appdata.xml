@@ -14,6 +14,7 @@
   <name xml:lang="fr">Booth</name>
   <name xml:lang="id">Booth</name>
   <name xml:lang="it">Booth</name>
+  <name xml:lang="ko">Booth</name>
   <name xml:lang="nl">Booth</name>
   <name xml:lang="nn">Booth</name>
   <name xml:lang="pl">Booth</name>
@@ -33,6 +34,7 @@
   <summary xml:lang="fr">Prendre des images et des vidéos</summary>
   <summary xml:lang="id">Ambil gambar dan video</summary>
   <summary xml:lang="it">Scatta fotografie e riprendi video</summary>
+  <summary xml:lang="ko">사진과 동영상 찍기</summary>
   <summary xml:lang="nl">Foto's en video's maken</summary>
   <summary xml:lang="nn">Ta foto og videoopptak</summary>
   <summary xml:lang="pl">Rób zdjęcia i nagrywaj filmy</summary>
@@ -52,6 +54,7 @@
     <p xml:lang="fr">Booth est une application de caméra convergente.</p>
     <p xml:lang="id">Booth adalah sebuah aplikasi kamera yang terpusat.</p>
     <p xml:lang="it">Booth è un'app convergente per fotocamera.</p>
+    <p xml:lang="ko">Booth는 올인원 카메라 앱입니다.</p>
     <p xml:lang="nl">Booth is een convergente camera-toepassing.</p>
     <p xml:lang="nn">Boorth er ein konvergent kameraapp.</p>
     <p xml:lang="pl">Booth jest programem do obsługi kamery.</p>
@@ -77,6 +80,7 @@
       <caption xml:lang="fr">Booth, une application de caméra</caption>
       <caption xml:lang="id">Booth aplikasi kamera</caption>
       <caption xml:lang="it">App fotocamera Booth</caption>
+      <caption xml:lang="ko">Booth 카메라 앱</caption>
       <caption xml:lang="nl">Booth camera-toepassing</caption>
       <caption xml:lang="nn">Booth kameraapp</caption>
       <caption xml:lang="pl">Aplikacja budki do robienia zdjęć</caption>
