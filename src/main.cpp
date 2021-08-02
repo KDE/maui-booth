@@ -32,7 +32,7 @@
 #include "3rdparty/mauikit/src/mauikit.h"
 #include "mauiapp.h"
 #else
-#include <MauiKit/mauiapp.h>
+#include <MauiKit/Core/mauiapp.h>
 #endif
 
 #if defined Q_OS_MACOS || defined Q_OS_WIN
@@ -66,7 +66,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
 		app.setOrganizationName(QStringLiteral("Maui"));
 		app.setWindowIcon(QIcon(":/assets/booth.svg"));
-		MauiApp::instance()->setHandleAccounts(false); //for now index can not handle cloud accounts
+		//MauiApp::instance()->setHandleAccounts(false); //for now index can not handle cloud accounts
 		MauiApp::instance()->setIconName("qrc:/assets/booth.svg");
 
 		KLocalizedString::setApplicationDomain("booth");
