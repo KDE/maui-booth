@@ -24,6 +24,7 @@
   <name xml:lang="sv">Booth</name>
   <name xml:lang="uk">Booth</name>
   <name xml:lang="x-test">xxBoothxx</name>
+  <name xml:lang="zh-CN">Booth</name>
   <summary>Take pictures and videos</summary>
   <summary xml:lang="ca">Pren fotografies o vídeos</summary>
   <summary xml:lang="ca-valencia">Pren fotografies o vídeos</summary>
@@ -44,6 +45,7 @@
   <summary xml:lang="sv">Ta bilder och videor</summary>
   <summary xml:lang="uk">Створення зображень та відео</summary>
   <summary xml:lang="x-test">xxTake pictures and videosxx</summary>
+  <summary xml:lang="zh-CN">拍摄照片和视频</summary>
   <description>
     <p>Booth is a convergent camera app.</p>
     <p xml:lang="ca">Booth és una aplicació convergent de càmera.</p>
@@ -65,6 +67,7 @@
     <p xml:lang="sv">Booth är ett konvergent kameraprogram</p>
     <p xml:lang="uk">Booth — універсальна програма для роботи з камерою.</p>
     <p xml:lang="x-test">xxBooth is a convergent camera app.xx</p>
+    <p xml:lang="zh-CN">Booth 是一款融合支持桌面和手机环境的相机应用。</p>
   </description>
   <url type="homepage">https://mauikit.org/</url>
   <url type="bugtracker">https://invent.kde.org/maui/booth/-/issues</url>
@@ -91,6 +94,7 @@
       <caption xml:lang="sv">Booth kameraprogram</caption>
       <caption xml:lang="uk">Програма для роботи з камерою Booth</caption>
       <caption xml:lang="x-test">xxBooth camera appxx</caption>
+      <caption xml:lang="zh-CN">Booth 相机应用</caption>
       <image type="source" width="1048" height="631">
         https://invent.kde.org/websites/product-screenshots/-/raw/master/index/index.png
       </image>
