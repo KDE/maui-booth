@@ -9,21 +9,20 @@ else()
     qt5_add_resources(booth_QML_QRC qml.qrc)
 endif()
 
-
-add_executable(booth
+add_executable(${PROJECT_NAME}
     main.cpp
     ${booth_QML_QRC}
 )
 
 if (ANDROID)
-    target_link_libraries(booth Qt5::AndroidExtras Qt5::QuickControls2)
+    target_link_libraries(${PROJECT_NAME} Qt5::AndroidExtras Qt5::QuickControls2)
 else()
-    target_link_libraries(booth Qt5::Widgets)
+    target_link_libraries(${PROJECT_NAME} Qt5::Widgets)
 endif()
 
-target_link_libraries(booth MauiKit Qt5::Quick Qt5::Qml Qt5::Multimedia)
+target_link_libraries(${PROJECT_NAME} MauiKit Qt5::Quick Qt5::Qml Qt5::Multimedia)
 
-install(TARGETS booth ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+install(TARGETS ${PROJECT_NAME} ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
 install(FILES org.maui.booth.desktop DESTINATION ${XDG_APPS_INSTALL_DIR})
 
 #TODO: port to ecm_install_icons()

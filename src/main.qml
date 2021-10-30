@@ -28,6 +28,7 @@ Maui.ApplicationWindow
     Maui.AppViews
     {
         anchors.fill: parent
+
         Maui.Page
         {
             id: cameraPage

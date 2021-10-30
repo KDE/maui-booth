@@ -43,8 +43,8 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
 		app.setOrganizationName(QStringLiteral("Maui"));
 		app.setWindowIcon(QIcon(":/assets/booth.svg"));
-		//MauiApp::instance()->setHandleAccounts(false); //for now index can not handle cloud accounts
-		MauiApp::instance()->setIconName("qrc:/assets/booth.svg");
+
+        MauiApp::instance()->setIconName("qrc:/assets/booth.svg");
 
 		KLocalizedString::setApplicationDomain("booth");
         KAboutData about(QStringLiteral("booth"), i18n("Booth"), BOOTH_VERSION_STRING, i18n("Camera app to take pictures and record videos."), KAboutLicense::LGPL_V3, i18n("© 2020 Maui Development Team",QString::number(QDate::currentDate().year())), QString(GIT_BRANCH) + "/" + QString(GIT_COMMIT_HASH));
