@@ -2,6 +2,8 @@
 // Copyright 2018-2020 Nitrux Latinoamericana S.C.
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
+
+#include <QDate>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 #include <QIcon>
@@ -9,52 +11,27 @@
 
 #ifdef Q_OS_ANDROID
 #include <QGuiApplication>
-#include "mauiandroid.h"
 #else
 #include <QApplication>
 #endif
 
 #ifdef Q_OS_MACOS
-#include "mauimacos.h"
+#include <MauiKit/Core/mauimacos.h>
 #endif
 
-#ifdef Q_OS_MACOS
-#include <KF5/KI18n/KLocalizedContext>
-#else
-#include <KI18n/KLocalizedContext>
-#endif
-
-#ifdef STATIC_KIRIGAMI
-#include "3rdparty/kirigami/src/kirigamiplugin.h"
-#endif
-
-#ifdef STATIC_MAUIKIT
-#include "3rdparty/mauikit/src/mauikit.h"
-#include "mauiapp.h"
-#else
 #include <MauiKit/Core/mauiapp.h>
-#endif
 
-#if defined Q_OS_MACOS || defined Q_OS_WIN
-#include <KF5/KI18n/KLocalizedContext>
-#include <KF5/KI18n/KLocalizedString>
-#else
-#include <KI18n/KLocalizedContext>
+#include <KAboutData>
 #include <KI18n/KLocalizedString>
-#endif
 
-#ifndef STATIC_MAUIKIT
 #include "../booth_version.h"
-#endif
 
 #define BOOTH_URI "org.maui.booth"
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
 		QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-		QCoreApplication::setAttribute(Qt::AA_DontCreateNativeWidgetSiblings);
 		QCoreApplication::setAttribute(Qt::AA_UseHighDpiPixmaps, true);
-		QCoreApplication::setAttribute(Qt::AA_DisableSessionManager, true);
 
 #ifdef Q_OS_ANDROID
 		QGuiApplication app(argc, argv);
@@ -70,8 +47,8 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 		MauiApp::instance()->setIconName("qrc:/assets/booth.svg");
 
 		KLocalizedString::setApplicationDomain("booth");
-		KAboutData about(QStringLiteral("booth"), i18n("Booth"), BOOTH_VERSION_STRING, i18n("Booth is a convergent camera app to take pictures and record videos."),
-										 KAboutLicense::LGPL_V3, i18n("© 2020 Nitrux Development Team"));
+        KAboutData about(QStringLiteral("booth"), i18n("Booth"), BOOTH_VERSION_STRING, i18n("Camera app to take pictures and record videos."), KAboutLicense::LGPL_V3, i18n("© 2020 Maui Development Team",QString::number(QDate::currentDate().year())), QString(GIT_BRANCH) + "/" + QString(GIT_COMMIT_HASH));
+
 		about.addAuthor(i18n("Camilo Higuita"), i18n("Developer"), QStringLiteral("milo.h@aol.com"));
 		about.setHomepage("https://mauikit.org");
 		about.setProductName("maui/booth");
@@ -82,9 +59,8 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 		KAboutData::setApplicationData(about);
 
 		QCommandLineParser parser;
+        parser.setApplicationDescription(about.shortDescription());
 		parser.process(app);
-
-		about.setupCommandLine(&parser);
 		about.processCommandLine(&parser);
 
 		QQmlApplicationEngine engine;
@@ -99,13 +75,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
 		engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
 
-#ifdef STATIC_KIRIGAMI
-		KirigamiPlugin::getInstance().registerTypes();
-#endif
-
-#ifdef STATIC_MAUIKIT
-		MauiKit::getInstance().registerTypes();
-#endif
 	engine.load(url);
 
 #ifdef Q_OS_MACOS

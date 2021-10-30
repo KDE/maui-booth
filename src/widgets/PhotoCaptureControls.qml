@@ -48,7 +48,8 @@
 **
 ****************************************************************************/
 
-import QtQuick 2.0
+import QtQuick 2.15
+import QtQuick.Controls 2.15
 import QtMultimedia 5.4
 
 FocusScope {
@@ -91,27 +92,27 @@ FocusScope {
                     ListElement {
                         icon: "images/camera_auto_mode.png"
                         value: CameraImageProcessing.WhiteBalanceAuto
-                        text: i18n("Auto")
+                        text: "Auto"
                     }
                     ListElement {
                         icon: "images/camera_white_balance_sunny.png"
                         value: CameraImageProcessing.WhiteBalanceSunlight
-                        text: i18n("Sunlight")
+                        text: "Sunlight"
                     }
                     ListElement {
                         icon: "images/camera_white_balance_cloudy.png"
                         value: CameraImageProcessing.WhiteBalanceCloudy
-                        text: i18n("Cloudy")
+                        text: "Cloudy"
                     }
                     ListElement {
                         icon: "images/camera_white_balance_incandescent.png"
                         value: CameraImageProcessing.WhiteBalanceTungsten
-                        text: i18n("Tungsten")
+                        text: "Tungsten"
                     }
                     ListElement {
                         icon: "images/camera_white_balance_flourescent.png"
                         value: CameraImageProcessing.WhiteBalanceFluorescent
-                        text: i18n("Fluorescent")
+                        text: "Fluorescent"
                     }
                 }
                 onValueChanged: captureControls.camera.imageProcessing.whiteBalanceMode = wbModesButton.value
