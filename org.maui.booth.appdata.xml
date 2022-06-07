@@ -55,7 +55,7 @@
   <description>
     <p>Booth is a convergent camera app.</p>
     <p xml:lang="ca">Booth és una aplicació convergent de càmera.</p>
-    <p xml:lang="ca-valencia">Booth és una aplicació convergent de càmera.</p>
+    <p xml:lang="ca-valencia">Booth és una aplicació convergent de càmara.</p>
     <p xml:lang="de">Booth ist eine konvergente Kamera-App.</p>
     <p xml:lang="en-GB">Booth is a convergent camera app.</p>
     <p xml:lang="es">Booth es una aplicación de cámara convergente.</p>
@@ -85,7 +85,7 @@
     <screenshot type="default">
       <caption>Booth camera app</caption>
       <caption xml:lang="ca">Aplicació de càmera Booth</caption>
-      <caption xml:lang="ca-valencia">Aplicació de càmera Booth</caption>
+      <caption xml:lang="ca-valencia">Aplicació de càmara Booth</caption>
       <caption xml:lang="de">Booth-Kamera-App</caption>
       <caption xml:lang="en-GB">Booth camera app</caption>
       <caption xml:lang="es">Aplicación de cámara Booth</caption>
