@@ -9,7 +9,6 @@ import QtQuick.Controls 2.14
 import QtQuick.Layouts 1.3
 import QtMultimedia 5.14
 
-import org.kde.kirigami 2.7 as Kirigami
 import org.mauikit.controls 1.2 as Maui
 
 import "widgets"
@@ -19,15 +18,14 @@ Maui.ApplicationWindow
 {
     id: root
     title:  currentTab ? currentTab.title : ""
-    color: "black"
-    floatingHeader: true
-    autoHideHeader: true
-    Kirigami.Theme.colorSet: Kirigami.Theme.Complementary
-
+  headBar.visible: false
 
     Maui.AppViews
     {
+//        floatingHeader: true
+//        autoHideHeader: true
         anchors.fill: parent
+        showCSDControls: true
 
         Maui.Page
         {
@@ -36,7 +34,7 @@ Maui.ApplicationWindow
 
             Maui.AppView.title: i18n("Camera")
             Maui.AppView.iconName: "camera-photo"
-
+headBar.visible: false
             footBar.leftContent: Maui.ToolActions
             {
                 expanded : isWide
@@ -63,10 +61,11 @@ Maui.ApplicationWindow
 
             footBar.middleContent: Rectangle
             {
-                height: Maui.Style.iconSizes.big
-                width: height
+                Layout.alignment: Qt.AlignCenter
+                implicitHeight: Maui.Style.iconSizes.big
+                implicitWidth: height
                 radius: height
-                border.color: Kirigami.Theme.textColor
+                border.color: Maui.Theme.textColor
                 border.width: 2
                 color: "transparent"
 
@@ -74,7 +73,7 @@ Maui.ApplicationWindow
                 {
                     anchors.fill: parent
                     anchors.margins: Maui.Style.space.tiny
-                    color: cameraPage.state === "PhotoCapture" ? Kirigami.Theme.textColor : Kirigami.Theme.negativeTextColor
+                    color: cameraPage.state === "PhotoCapture" ? Maui.Theme.textColor : Maui.Theme.negativeTextColor
                     radius: parent.radius
                 }
 
