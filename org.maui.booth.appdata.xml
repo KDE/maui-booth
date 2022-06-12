@@ -19,6 +19,7 @@
   <name xml:lang="my">ဘု</name>
   <name xml:lang="nl">Booth</name>
   <name xml:lang="nn">Booth</name>
+  <name xml:lang="pa">ਬੂਥ</name>
   <name xml:lang="pl">Booth</name>
   <name xml:lang="pt">Cabine</name>
   <name xml:lang="sk">Booth</name>
@@ -43,6 +44,7 @@
   <summary xml:lang="my">ဓါတ်ပုံနှင့် ဗီဒီယို ရိုက်မယ်</summary>
   <summary xml:lang="nl">Foto's en video's maken</summary>
   <summary xml:lang="nn">Ta foto og videoopptak</summary>
+  <summary xml:lang="pa">ਤਸਵੀਰਾਂ ਤੇ ਵੀਡੀਓ ਬਣਾਓ</summary>
   <summary xml:lang="pl">Rób zdjęcia i nagrywaj filmy</summary>
   <summary xml:lang="pt">Tirar fotografias e vídeos</summary>
   <summary xml:lang="sk">Tvorba fotiek a videa</summary>
@@ -98,6 +100,7 @@
       <caption xml:lang="my">ဘု ကင်မရာအပ်</caption>
       <caption xml:lang="nl">Booth camera-toepassing</caption>
       <caption xml:lang="nn">Booth kameraapp</caption>
+      <caption xml:lang="pa">ਬੂਥ ਕੈਮਰਾ ਐਪ</caption>
       <caption xml:lang="pl">Aplikacja budki do robienia zdjęć</caption>
       <caption xml:lang="pt">Aplicação de câmara Cabine</caption>
       <caption xml:lang="sk">Fotografická aplikácia Booth</caption>
