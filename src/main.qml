@@ -18,12 +18,9 @@ Maui.ApplicationWindow
 {
     id: root
     title:  currentTab ? currentTab.title : ""
-  headBar.visible: false
 
     Maui.AppViews
     {
-//        floatingHeader: true
-//        autoHideHeader: true
         anchors.fill: parent
         showCSDControls: true
 
@@ -34,7 +31,7 @@ Maui.ApplicationWindow
 
             Maui.AppView.title: i18n("Camera")
             Maui.AppView.iconName: "camera-photo"
-headBar.visible: false
+            headBar.visible: false
             footBar.leftContent: Maui.ToolActions
             {
                 expanded : isWide
