@@ -11,6 +11,7 @@ endif()
 
 add_executable(${PROJECT_NAME}
     main.cpp
+    assets/assets.qrc
     ${booth_QML_QRC}
 )
 

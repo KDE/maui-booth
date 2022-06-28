@@ -19,20 +19,46 @@ Maui.ApplicationWindow
     id: root
     title:  currentTab ? currentTab.title : ""
 
-    Maui.AppViews
+    StackView
     {
+        id: _stackView
         anchors.fill: parent
-        showCSDControls: true
 
-        Maui.Page
+        initialItem: Maui.Page
         {
             id: cameraPage
             floatingFooter: true
+            showCSDControls: true
+            floatingHeader: true
+            autoHideHeader: true
 
-            Maui.AppView.title: i18n("Camera")
-            Maui.AppView.iconName: "camera-photo"
-            headBar.visible: false
-            footBar.leftContent: Maui.ToolActions
+            headBar.rightContent: ToolButton
+            {
+                icon.name: "photo"
+                onClicked: _stackView.push(_galleryComponent)
+            }
+
+            headBar.leftContent: [
+
+                Maui.ToolButtonMenu
+                {
+                    icon.name: "application-menu"
+                    MenuItem
+                    {
+                        text: i18n("Settings")
+                        icon.name: "settings-configure"
+                        onTriggered: openConfigDialog()
+                    }
+
+                    MenuItem
+                    {
+                        text: i18n("About")
+                        icon.name: "documentinfo"
+                        onTriggered: root.about()
+                    }
+                },
+
+                Maui.ToolActions
             {
                 expanded : isWide
                 autoExclusive: true
@@ -55,8 +81,9 @@ Maui.ApplicationWindow
                 }
 
             }
+            ]
 
-            footBar.middleContent: Rectangle
+            headBar.middleContent: Rectangle
             {
                 Layout.alignment: Qt.AlignCenter
                 implicitHeight: Maui.Style.iconSizes.big
@@ -199,13 +226,24 @@ Maui.ApplicationWindow
             }
         }
 
-        RollView
+
+        Component
         {
+            id: _galleryComponent
 
-            Maui.AppView.title: i18n("Roll")
-            Maui.AppView.iconName: "photo"
+            RollView
+            {
+                showCSDControls: true
+                headBar.leftContent: ToolButton
+                {
+                    icon.name: "go-previous"
+                    onClicked: _stackView.pop()
+                }
+
+                Maui.AppView.title: i18n("Roll")
+                Maui.AppView.iconName: "photo"
+            }
         }
-
     }
 
 }

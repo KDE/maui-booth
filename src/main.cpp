@@ -42,12 +42,12 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 #endif
 
 		app.setOrganizationName(QStringLiteral("Maui"));
-		app.setWindowIcon(QIcon(":/assets/booth.svg"));
+        app.setWindowIcon(QIcon(":/booth.svg"));
 
-        MauiApp::instance()->setIconName("qrc:/assets/booth.svg");
+        MauiApp::instance()->setIconName("qrc:/booth.svg");
 
 		KLocalizedString::setApplicationDomain("booth");
-        KAboutData about(QStringLiteral("booth"), i18n("Booth"), BOOTH_VERSION_STRING, i18n("Camera app to take pictures and record videos."), KAboutLicense::LGPL_V3, i18n("© 2020 Maui Development Team",QString::number(QDate::currentDate().year())), QString(GIT_BRANCH) + "/" + QString(GIT_COMMIT_HASH));
+        KAboutData about(QStringLiteral("booth"), i18n("Booth"), BOOTH_VERSION_STRING, i18n("Camera app to take pictures and record videos."), KAboutLicense::LGPL_V3, i18n("© 2020 - %1 Maui Development Team",QString::number(QDate::currentDate().year())), QString(GIT_BRANCH) + "/" + QString(GIT_COMMIT_HASH));
 
 		about.addAuthor(i18n("Camilo Higuita"), i18n("Developer"), QStringLiteral("milo.h@aol.com"));
 		about.setHomepage("https://mauikit.org");
