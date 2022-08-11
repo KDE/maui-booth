@@ -3,15 +3,18 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-
 cmake_minimum_required(VERSION 3.16)
 
 set(BOOTH_VERSION 1.0.0)
+project(booth VERSION ${BOOTH_VERSION})
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-project(booth VERSION ${BOOTH_VERSION})
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
 
 set(REQUIRED_QT_VERSION 5.15.0)
 set(REQUIRED_KF5_VERSION 5.77.0)
@@ -19,6 +22,7 @@ set(REQUIRED_KF5_VERSION 5.77.0)
 if(ANDROID)
     set(ANDROID_PACKAGE_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/android_files)
     set(ANDROID_ABIS "armeabi-v7a")
+    configure_file(${CMAKE_CURRENT_SOURCE_DIR}/android_files/version.gradle.in ${CMAKE_BINARY_DIR}/version.gradle)
 endif()
 
 option(QUICK_COMPILER "Use QtQuick compiler to improve performance" TRUE)

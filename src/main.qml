@@ -8,242 +8,459 @@ import QtQuick 2.14
 import QtQuick.Controls 2.14
 import QtQuick.Layouts 1.3
 import QtMultimedia 5.14
+import Qt.labs.settings 1.0
 
-import org.mauikit.controls 1.2 as Maui
+import org.mauikit.controls 1.3 as Maui
 
 import "widgets"
-import "views/roll"
+import "views"
 
 Maui.ApplicationWindow
 {
     id: root
-    title:  currentTab ? currentTab.title : ""
+    Maui.Style.styleType: Maui.Handy.isAndroid ? Maui.Style.Dark  : undefined
+    Maui.Style.accentColor: "#ffaa00"
 
-    StackView
+    property alias appSettings : settings
+
+    Settings
     {
-        id: _stackView
+        id: settings
+        category: "Browser"
+
+        property bool darkMode: true
+    }
+
+    Maui.Page
+    {
         anchors.fill: parent
 
-        initialItem: Maui.Page
+        floatingHeader: true
+        autoHideHeader: true
+
+        footBar.rightContent: Maui.ToolButtonMenu
         {
-            id: cameraPage
-            floatingFooter: true
-            showCSDControls: true
-            floatingHeader: true
-            autoHideHeader: true
+            icon.name: "view-refresh"
 
-            headBar.rightContent: ToolButton
+            Repeater
             {
-                icon.name: "photo"
-                onClicked: _stackView.push(_galleryComponent)
-            }
-
-            headBar.leftContent: [
-
-                Maui.ToolButtonMenu
+                model: QtMultimedia.availableCameras
+                delegate: MenuItem
                 {
-                    icon.name: "application-menu"
-                    MenuItem
+                    autoExclusive: true
+                    checked: modelData.deviceId === _cameraPage.camera.deviceId
+                    action: Action
                     {
-                        text: i18n("Settings")
-                        icon.name: "settings-configure"
-                        onTriggered: openConfigDialog()
+                        checkable: true
+                        text: modelData.displayName
                     }
 
-                    MenuItem
+                    onTriggered:
                     {
-                        text: i18n("About")
-                        icon.name: "documentinfo"
-                        onTriggered: root.about()
+                        _cameraPage.camera.deviceId = modelData.deviceId
                     }
-                },
+                }
+            }
+        }
 
-                Maui.ToolActions
+        headBar.background: Rectangle
+        {
+            color: Maui.Theme.backgroundColor
+            opacity: 0.5
+        }
+
+        headBar.rightContent: [
+
+            ToolButton
             {
-                expanded : isWide
+                icon.name: "love" //flash
+            },
+
+            Maui.ToolButtonMenu
+            {
+                icon.name: "adjustlevels" //focus
+
+                Menu
+                {
+                    title: i18n("Mode")
+
+                    Repeater
+                    {
+                        model:_cameraPage.camera.focus.supportedFocusModes
+                        delegate: MenuItem
+                        {
+                            checkable: true
+                            autoExclusive: true
+                            checked: modelData === _cameraPage.camera.focus.focusMode
+
+                            text: switch(modelData)
+                            {
+                                case Camera.FocusManual: return i18n("Manual")
+                                case Camera.FocusHyperfocal: return i18n("Hyperfocal")
+                                case Camera.FocusInfinity: return i18n("Infinity")
+                                case Camera.FocusAuto: return i18n("Auto")
+                                case Camera.FocusContinuous: return i18n("Continuous")
+                                case Camera.FocusMacro: return i18n("Macro")
+                            }
+
+                            onTriggered:
+                            {
+                                _cameraPage.camera.focus.focusMode = modelData
+                                _cameraPage.camera.searchAndLock()
+                            }
+                        }
+                    }
+                }
+
+                Menu
+                {
+                    title: i18n("Point")
+
+                    Repeater
+                    {
+                        model:_cameraPage.camera.focus.supportedFocusPointModes
+                        delegate: MenuItem
+                        {
+                            checkable: true
+                            autoExclusive: true
+                            checked: modelData === _cameraPage.camera.focus.focusPointMode
+                            text: switch(modelData)
+                            {
+                                case Camera.FocusPointAuto: return i18n("Auto")
+                                case Camera.FocusPointCenter: return i18n("Center")
+                                case Camera.FocusPointFaceDetection: return i18n("Face Detection")
+                                case Camera.FocusPointCustom: return i18n("Custom")
+                            }
+
+                            onTriggered:
+                            {
+
+                                _cameraPage.camera.focus.focusPointMode = modelData
+                                _cameraPage.camera.searchAndLock()
+
+                            }
+                        }
+                    }
+                }
+            },
+
+            ToolButton
+            {
+                id: _timer
+                property int secs : 0
+                checked: secs > 0
+                display: secs === 0 ? ToolButton.IconOnly : ToolButton.TextBesideIcon
+                text: secs + "s"
+                icon.name: "timer"
+                onClicked:
+                {
+                    switch(secs)
+                    {
+                    case 0: secs = 5; break;
+                    case 5: secs = 10; break;
+                    case 10: secs = 15; break;
+                    case 15: secs = 0; break;
+                    }
+
+                }
+            },
+
+            Maui.ToolButtonMenu
+            {
+                icon.name: "overflow-menu"
+
+                MenuItem
+                {
+                    text: i18n("Read QR")
+                    icon.name: "view-barcode"
+                }
+
+                Menu
+                {
+                    title: i18n("Resolutions")
+
+                    Repeater
+                    {
+                        model: _cameraPage.camera.imageCapture.supportedResolutions
+                        delegate: MenuItem
+                        {
+                            autoExclusive: true
+                            checkable: true
+                            checked: modelData === _cameraPage.camera.imageCapture.resolution
+                            text: modelData.width + "x" + modelData.height
+                            onTriggered: _cameraPage.camera.imageCapture.resolution = modelData
+                        }
+                    }
+                }
+            }
+        ]
+
+        footBar.leftContent: Maui.ToolButtonMenu
+        {
+            icon.name: "camera-photo"
+            MenuItem
+            {
+                checked: _cameraPage.state === "PhotoCapture"
                 autoExclusive: true
-                currentIndex: 0
-                display: ToolButton.TextBesideIcon
-                cyclic: true
+                checkable: true
 
-                Action
-                {
-                    icon.name: "camera-photo"
-                    text: i18n("Photo")
-                    onTriggered: cameraPage.state = "PhotoCapture"
-                }
+                text: i18n ("Photo")
+                onTriggered: _cameraPage.state = "PhotoCapture"
+            }
 
-                Action
+            MenuItem
+            {
+                checked: _cameraPage.state === "VideoCapture"
+                checkable: true
+                autoExclusive: true
+                onTriggered: _cameraPage.state = "VideoCapture"
+
+                text: i18n ("Video")
+            }
+
+            MenuItem
+            {
+                checked: _cameraPage.state === "PhotoCapture" && _cameraPage.manualMode
+                autoExclusive: true
+                checkable: true
+
+                text: i18n ("Manual")
+                onTriggered:
                 {
-                    icon.name: "camera-video"
-                    text: i18n("Video")
-                    onTriggered: cameraPage.state = "VideoCapture"
+                    _cameraPage.state = "PhotoCapture"
+                    _cameraPage.manualMode = true
                 }
 
             }
-            ]
+        }
 
-            headBar.middleContent: Rectangle
+
+        //                Maui.ToolActions
+        //                {
+        //                    expanded : isWide
+        //                    autoExclusive: true
+        //                    currentIndex: 0
+        //                    display: ToolButton.TextBesideIcon
+        //                    cyclic: true
+
+        //                    Action
+        //                    {
+        //                        icon.name: "camera-photo"
+        //                        text: i18n("Photo")
+        //                        checked: cameraPage.state === "PhotoCapture"
+        //                        onTriggered: cameraPage.state = "PhotoCapture"
+        //                    }
+
+        //                    Action
+        //                    {
+        //                        icon.name: "camera-video"
+        //                        text: i18n("Video")
+        //                        checked: cameraPage.state === "VideoCapture"
+        //                        onTriggered: cameraPage.state = "VideoCapture"
+        //                    }
+
+        //                }
+
+        headBar.leftContent: [
+
+            Maui.ToolButtonMenu
             {
-                Layout.alignment: Qt.AlignCenter
-                implicitHeight: Maui.Style.iconSizes.big
-                implicitWidth: height
+                icon.name: "application-menu"
+
+                MenuItem
+                {
+                    text: i18n("Settings")
+                    icon.name: "settings-configure"
+                    onTriggered: openConfigDialog()
+                }
+
+                MenuItem
+                {
+                    text: i18n("About")
+                    icon.name: "documentinfo"
+                    onTriggered: root.about()
+                }
+            }
+
+        ]
+
+        footBar.middleContent:AbstractButton
+        {
+            id: _shutterButton
+            Layout.alignment: Qt.AlignCenter
+            implicitHeight: Maui.Style.iconSizes.big
+            implicitWidth: height
+
+            property color m_color : pressed ? Maui.Theme.highlightColor : Maui.Theme.textColor
+
+            ColorAnimation on m_color
+            {
+                running: _timerShot.running
+
+                from: Maui.Theme.textColor
+                to:  Maui.Theme.highlightColor
+                duration: 1000
+                loops: Animation.Infinite
+
+                onFinished:  _shutterButton.m_color = Maui.Theme.textColor
+            }
+            background: null
+
+            contentItem: Rectangle
+            {
+
                 radius: height
-                border.color: Maui.Theme.textColor
+                border.color: _shutterButton.m_color
                 border.width: 2
                 color: "transparent"
+
 
                 Rectangle
                 {
                     anchors.fill: parent
                     anchors.margins: Maui.Style.space.tiny
-                    color: cameraPage.state === "PhotoCapture" ? Maui.Theme.textColor : Maui.Theme.negativeTextColor
+                    color: _cameraPage.state === "PhotoCapture" ? _shutterButton.m_color : "red"
                     radius: parent.radius
                 }
-
-                MouseArea
-                {
-                    anchors.fill: parent
-                    onClicked:
-                    {
-                        if(cameraPage.state === "PhotoCapture" && camera.imageCapture.ready)
-                        {
-                            camera.imageCapture.captureToLocation("/home/camilo/Pictures/DCMI/booth")
-                        }
-
-                        if(cameraPage.state === "VideoCapture" && camera.videoRecorder.recorderStatus == CameraRecorder.LoadedStatus)
-                        {
-
-                            camera.videoRecorder.record()
-                        }
-                    }
-                }
             }
 
-            background: Rectangle
+            onClicked:
             {
-                color: "#000"
-            }
-
-            state: "PhotoCapture"
-
-            states: [
-                State {
-                    name: "PhotoCapture"
-                    StateChangeScript {
-                        script: {
-                            camera.captureMode = Camera.CaptureStillImage
-                            camera.start()
-                        }
-                    }
-                },
-                State {
-                    name: "PhotoPreview"
-                },
-                State {
-                    name: "VideoCapture"
-                    StateChangeScript {
-                        script: {
-                            camera.captureMode = Camera.CaptureVideo
-                            camera.start()
-                        }
-                    }
-                },
-                State {
-                    name: "VideoPreview"
-                    StateChangeScript {
-                        script: {
-                            camera.stop()
-                        }
-                    }
-                }
-            ]
-
-            Camera {
-                id: camera
-                captureMode: Camera.CaptureStillImage
-
-                imageCapture {
-                    onImageCaptured: {
-                        photoPreview.source = preview
-                        stillControls.previewAvailable = true
-                        cameraPage.state = "PhotoPreview"
-                    }
+                if(_timer.checked)
+                {
+                    _timerShot.restart()
+                    return
                 }
 
-                videoRecorder {
-                    resolution: "640x480"
-                    frameRate: 30
-                }
-            }
-
-            PhotoPreview {
-                id : photoPreview
-                anchors.fill : parent
-                onClosed: cameraPage.state = "PhotoCapture"
-                visible: cameraPage.state == "PhotoPreview"
-                focus: visible
-            }
-
-            VideoPreview {
-                id : videoPreview
-                anchors.fill : parent
-                onClosed: cameraPage.state = "VideoCapture"
-                visible: cameraPage.state == "VideoPreview"
-                focus: visible
-
-                //don't load recorded video if preview is invisible
-                source: visible ? camera.videoRecorder.actualLocation : ""
-            }
-
-            VideoOutput {
-                id: viewfinder
-                visible: cameraPage.state == "PhotoCapture" || cameraPage.state == "VideoCapture"
-
-                x: 0
-                y: 0
-                width: parent.width - stillControls.buttonsPanelWidth
-                height: parent.height
-
-                source: camera
-                autoOrientation: true
-            }
-
-            PhotoCaptureControls {
-                id: stillControls
-                anchors.fill: parent
-                camera: camera
-                visible: cameraPage.state == "PhotoCapture"
-                onPreviewSelected: cameraPage.state = "PhotoPreview"
-            }
-
-            VideoCaptureControls {
-                id: videoControls
-                anchors.fill: parent
-                camera: camera
-                visible: cameraPage.state == "VideoCapture"
-                onPreviewSelected: cameraPage.state = "VideoPreview"
+                _cameraPage.capture()
             }
         }
 
+        footerColumn: [
 
-        Component
-        {
-            id: _galleryComponent
-
-            RollView
+            Maui.ToolBar
             {
-                showCSDControls: true
-                headBar.leftContent: ToolButton
+                visible: _cameraPage.camera.maximumDigitalZoom > 1 && !Maui.Handy.isTouch
+                width: parent.width
+
+                background: Rectangle
                 {
-                    icon.name: "go-previous"
-                    onClicked: _stackView.pop()
+                    color: Maui.Theme.backgroundColor
+                    opacity: 0.5
                 }
 
-                Maui.AppView.title: i18n("Roll")
-                Maui.AppView.iconName: "photo"
+                rightContent: Label
+                {
+                    text: "x" + Math.round(_cameraPage.camera.digitalZoom)
+                }
+
+                middleContent: Slider
+                {
+                    id: _zoomSlider
+                    Layout.fillWidth: true
+                    Layout.alignment: Qt.AlignCenter
+                    stepSize: _cameraPage.camera.maximumDigitalZoom/10
+                    from:0
+                    to: _cameraPage.camera.maximumDigitalZoom
+
+                    onMoved:
+                    {
+                        _cameraPage.camera.setDigitalZoom(value)
+                    }
+                }
+            },
+
+            Maui.ToolBar
+            {
+                visible: _cameraPage.manualMode
+                width: parent.width
+
+                background: Rectangle
+                {
+                    color: Maui.Theme.backgroundColor
+                    opacity: 0.5
+                }
+
+                ToolButton
+                {
+                    text: i18n("Aperture")
+                }
+
+                ToolButton
+                {
+                    text: i18n("ISO")
+                }
+
+                ToolButton
+                {
+                    text: i18n("Shutter")
+                }
+
+                ToolButton
+                {
+                    text: i18n("Modes")
+                }
+
+                ToolButton
+                {
+                    text: i18n("Brightness")
+                }
+
+                ToolButton
+                {
+                    text: i18n("White Balance")
+                }
+
+
+                ToolButton
+                {
+                    text: i18n("Contrast")
+                }
+
+                ToolButton
+                {
+                    text: i18n("Saturation")
+                }
+
+                ToolButton
+                {
+                    text: i18n("Filters")
+                }
             }
+        ]
+
+        CameraPage
+        {
+            id: _cameraPage
+            anchors.fill: parent
         }
     }
+
+    Timer
+    {
+        id: _timerShot
+        interval: _timer.secs * 1000
+        repeat: false
+        onTriggered:
+        {
+            _cameraPage.capture()
+        }
+    }
+
+
+    Component.onCompleted:
+    {
+        setAndroidStatusBarColor()
+    }
+
+    function setAndroidStatusBarColor()
+    {
+        if(Maui.Handy.isAndroid)
+        {
+            Maui.Android.statusbarColor( Maui.Theme.backgroundColor, false)
+            Maui.Android.navBarColor( Maui.Theme.backgroundColor, false)
+        }
+    }
+
 
 }

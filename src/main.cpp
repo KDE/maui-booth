@@ -11,6 +11,7 @@
 
 #ifdef Q_OS_ANDROID
 #include <QGuiApplication>
+#include <MauiKit/Core/mauiandroid.h>
 #else
 #include <QApplication>
 #endif
@@ -19,16 +20,15 @@
 #include <MauiKit/Core/mauimacos.h>
 #endif
 
-#include <MauiKit/Core/mauiapp.h>
-
-#include <KAboutData>
 #include <KI18n/KLocalizedString>
+
+#include <MauiKit/Core/mauiapp.h>
 
 #include "../booth_version.h"
 
 #define BOOTH_URI "org.maui.booth"
 
-Q_DECL_EXPORT int main(int argc, char *argv[])
+int Q_DECL_EXPORT main(int argc, char *argv[])
 {
 		QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 		QCoreApplication::setAttribute(Qt::AA_UseHighDpiPixmaps, true);

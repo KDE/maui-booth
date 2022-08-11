@@ -14,5 +14,6 @@
         <file>widgets/ZoomControl.qml</file>
         <file>main.qml</file>
         <file>views/roll/RollView.qml</file>
+        <file>views/CameraPage.qml</file>
     </qresource>
 </RCC>
