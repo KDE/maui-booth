@@ -1,0 +1,314 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-08-12 00:43+0000\n"
+"PO-Revision-Date: 2022-09-20 01:57\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/maui-booth/booth.pot\n"
+"X-Crowdin-File-ID: 24960\n"
+
+#: src/main.cpp:50
+#, kde-format
+msgid "Booth"
+msgstr "Booth"
+
+#: src/main.cpp:50
+#, kde-format
+msgid "Camera app to take pictures and record videos."
+msgstr "用于拍照和录像的相机应用。"
+
+#: src/main.cpp:50
+#, kde-format
+msgid "© 2020 - %1 Maui Development Team"
+msgstr ""
+
+#: src/main.cpp:52
+#, kde-format
+msgid "Camilo Higuita"
+msgstr "Camilo Higuita"
+
+#: src/main.cpp:52
+#, kde-format
+msgid "Developer"
+msgstr "开发人员"
+
+#: src/main.qml:85
+#, kde-format
+msgid "Mode"
+msgstr ""
+
+#: src/main.qml:98 src/main.qml:227
+#, kde-format
+msgid "Manual"
+msgstr ""
+
+#: src/main.qml:99
+#, kde-format
+msgid "Hyperfocal"
+msgstr ""
+
+#: src/main.qml:100
+#, kde-format
+msgid "Infinity"
+msgstr ""
+
+#: src/main.qml:101 src/main.qml:129
+#, kde-format
+msgid "Auto"
+msgstr ""
+
+#: src/main.qml:102
+#, kde-format
+msgid "Continuous"
+msgstr ""
+
+#: src/main.qml:103
+#, kde-format
+msgid "Macro"
+msgstr ""
+
+#: src/main.qml:117
+#, kde-format
+msgid "Point"
+msgstr ""
+
+#: src/main.qml:130
+#, kde-format
+msgid "Center"
+msgstr ""
+
+#: src/main.qml:131
+#, kde-format
+msgid "Face Detection"
+msgstr ""
+
+#: src/main.qml:132
+#, kde-format
+msgid "Custom"
+msgstr ""
+
+#: src/main.qml:174
+#, kde-format
+msgid "Read QR"
+msgstr ""
+
+#: src/main.qml:180
+#, kde-format
+msgid "Resolutions"
+msgstr ""
+
+#: src/main.qml:207
+#, kde-format
+msgid "Photo"
+msgstr "照片"
+
+#: src/main.qml:218
+#, kde-format
+msgid "Video"
+msgstr "视频"
+
+#: src/main.qml:272
+#, kde-format
+msgid "Settings"
+msgstr ""
+
+#: src/main.qml:279
+#, kde-format
+msgid "About"
+msgstr ""
+
+#: src/main.qml:386
+#, kde-format
+msgid "Aperture"
+msgstr ""
+
+#: src/main.qml:391
+#, kde-format
+msgid "ISO"
+msgstr ""
+
+#: src/main.qml:396
+#, kde-format
+msgid "Shutter"
+msgstr ""
+
+#: src/main.qml:401
+#, kde-format
+msgid "Modes"
+msgstr ""
+
+#: src/main.qml:406
+#, kde-format
+msgid "Brightness"
+msgstr ""
+
+#: src/main.qml:411
+#, kde-format
+msgid "White Balance"
+msgstr ""
+
+#: src/main.qml:417
+#, kde-format
+msgid "Contrast"
+msgstr ""
+
+#: src/main.qml:422
+#, kde-format
+msgid "Saturation"
+msgstr ""
+
+#: src/main.qml:427
+#, kde-format
+msgid "Filters"
+msgstr ""
+
+#: src/widgets/PhotoCaptureControls.qml:122
+#: src/widgets/VideoCaptureControls.qml:95
+#, kde-format
+msgid "View"
+msgstr "查看"
+
+#: src/widgets/VideoCaptureControls.qml:89
+#, kde-format
+msgid "Stop"
+msgstr "停止"
+
+#: src/widgets/VideoCaptureControls.qml:118
+#, kde-format
+msgid "Switch to Photo"
+msgstr "切换到拍照模式"
+
+#: src/widgets/VideoCaptureControls.qml:124
+#, kde-format
+msgid "Quit"
+msgstr "退出"
+
+#: src/widgets/views/Browser.qml:117 src/widgets/views/PlacesSideBar.qml:127
+#, kde-format
+msgid "Open in new tab"
+msgstr "在新标签页中打开"
+
+#: src/widgets/views/Browser.qml:125 src/widgets/views/PlacesSideBar.qml:135
+#, kde-format
+msgid "Open in split view"
+msgstr "在拆分视图中打开"
+
+#: src/widgets/views/PlacesSideBar.qml:144
+#, kde-format
+msgid "Remove"
+msgstr "移除"
+
+#: src/widgets/views/SettingsDialog.qml:13
+#, kde-format
+msgid "Navigation"
+msgstr "导航"
+
+#: src/widgets/views/SettingsDialog.qml:14
+#, kde-format
+msgid "Configure the app plugins and behavior."
+msgstr "配置应用的插件和行为。"
+
+#: src/widgets/views/SettingsDialog.qml:18
+#, kde-format
+msgid "Thumbnails"
+msgstr "缩略图"
+
+#: src/widgets/views/SettingsDialog.qml:19
+#, kde-format
+msgid "Show previews of images, videos and PDF files"
+msgstr "显示图像、视频和 PDF 文件的预览"
+
+#: src/widgets/views/SettingsDialog.qml:33
+#, kde-format
+msgid "Hidden Files"
+msgstr "隐藏文件"
+
+#: src/widgets/views/SettingsDialog.qml:34
+#, kde-format
+msgid "List hidden files"
+msgstr "显示隐藏文件"
+
+#: src/widgets/views/SettingsDialog.qml:48
+#, kde-format
+msgid "Single Click"
+msgstr "单击"
+
+#: src/widgets/views/SettingsDialog.qml:49
+#, kde-format
+msgid "Open files with a single or double click"
+msgstr "选择通过单击或双击打开文件"
+
+#: src/widgets/views/SettingsDialog.qml:67
+#, kde-format
+msgid "Save Session"
+msgstr "保存会话"
+
+#: src/widgets/views/SettingsDialog.qml:68
+#, kde-format
+msgid "Save and restore tabs"
+msgstr "保存和还原标签页"
+
+#: src/widgets/views/SettingsDialog.qml:87
+#, kde-format
+msgid "Interface"
+msgstr "界面"
+
+#: src/widgets/views/SettingsDialog.qml:88
+#, kde-format
+msgid "Configure the app UI."
+msgstr "配置应用界面。"
+
+#: src/widgets/views/SettingsDialog.qml:93
+#, kde-format
+msgid "Grid Size"
+msgstr "网格大小"
+
+#: src/widgets/views/SettingsDialog.qml:94
+#, kde-format
+msgid "Thumbnails size in the grid view"
+msgstr "网格视图中的缩略图大小"
+
+#: src/widgets/views/SettingsDialog.qml:119
+#, kde-format
+msgid "S"
+msgstr "小"
+
+#: src/widgets/views/SettingsDialog.qml:125
+#, kde-format
+msgid "M"
+msgstr "中"
+
+#: src/widgets/views/SettingsDialog.qml:131
+#, kde-format
+msgid "X"
+msgstr "大"
+
+#: src/widgets/views/SettingsDialog.qml:137
+#, kde-format
+msgid "XL"
+msgstr "超大"
+
+#: src/widgets/views/SettingsDialog.qml:145
+#, kde-format
+msgid "Sidebar always visible"
+msgstr "侧边栏始终可见"
+
+#: src/widgets/views/SettingsDialog.qml:146
+#, kde-format
+msgid "Keep sidebar on constrained spaces"
+msgstr "保持侧边栏在受限空间"
+
+#: src/widgets/views/SettingsDialog.qml:182
+#, kde-format
+msgid "Dark Mode"
+msgstr "深色模式"

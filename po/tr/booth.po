@@ -1,0 +1,320 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the maui-booth package.
+#
+# Emir SARI <emir_sari@icloud.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: maui-booth\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-08-12 00:43+0000\n"
+"PO-Revision-Date: 2022-08-12 12:38+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 22.04.3\n"
+
+#: src/main.cpp:50
+#, kde-format
+msgid "Booth"
+msgstr "Kabin"
+
+#: src/main.cpp:50
+#, kde-format
+msgid "Camera app to take pictures and record videos."
+msgstr "Resim çekmek ve video kaydetmek için bir kamera uygulaması."
+
+#: src/main.cpp:50
+#, kde-format
+msgid "© 2020 - %1 Maui Development Team"
+msgstr "© 2020 - %1 Maui Geliştirme Takımı"
+
+#: src/main.cpp:52
+#, kde-format
+msgid "Camilo Higuita"
+msgstr "Camilo Higuita"
+
+#: src/main.cpp:52
+#, kde-format
+msgid "Developer"
+msgstr "Geliştirici"
+
+#: src/main.qml:85
+#, kde-format
+msgid "Mode"
+msgstr "Kip"
+
+#: src/main.qml:98 src/main.qml:227
+#, kde-format
+msgid "Manual"
+msgstr "El İle"
+
+#: src/main.qml:99
+#, kde-format
+msgid "Hyperfocal"
+msgstr "Hiperodaksal"
+
+#: src/main.qml:100
+#, kde-format
+msgid "Infinity"
+msgstr "Sonsuzluk"
+
+#: src/main.qml:101 src/main.qml:129
+#, kde-format
+msgid "Auto"
+msgstr "Otomatik"
+
+#: src/main.qml:102
+#, kde-format
+msgid "Continuous"
+msgstr "Sürekli"
+
+#: src/main.qml:103
+#, kde-format
+msgid "Macro"
+msgstr "Makro"
+
+#: src/main.qml:117
+#, kde-format
+msgid "Point"
+msgstr "Nokta"
+
+#: src/main.qml:130
+#, kde-format
+msgid "Center"
+msgstr "Merkez"
+
+#: src/main.qml:131
+#, kde-format
+msgid "Face Detection"
+msgstr "Yüz Algılama"
+
+#: src/main.qml:132
+#, kde-format
+msgid "Custom"
+msgstr "Özel"
+
+#: src/main.qml:174
+#, kde-format
+msgid "Read QR"
+msgstr "Kare Kod Oku"
+
+#: src/main.qml:180
+#, kde-format
+msgid "Resolutions"
+msgstr "Çözünürlükler"
+
+#: src/main.qml:207
+#, kde-format
+msgid "Photo"
+msgstr "Fotoğraf"
+
+#: src/main.qml:218
+#, kde-format
+msgid "Video"
+msgstr "Video"
+
+#: src/main.qml:272
+#, kde-format
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: src/main.qml:279
+#, kde-format
+msgid "About"
+msgstr "Hakkında"
+
+#: src/main.qml:386
+#, kde-format
+msgid "Aperture"
+msgstr "Açıklık"
+
+#: src/main.qml:391
+#, kde-format
+msgid "ISO"
+msgstr "ISO"
+
+#: src/main.qml:396
+#, kde-format
+msgid "Shutter"
+msgstr "Deklanşör"
+
+#: src/main.qml:401
+#, kde-format
+msgid "Modes"
+msgstr "Kipler"
+
+#: src/main.qml:406
+#, kde-format
+msgid "Brightness"
+msgstr "Parlaklık"
+
+#: src/main.qml:411
+#, kde-format
+msgid "White Balance"
+msgstr "Beyaz Dengesi"
+
+#: src/main.qml:417
+#, kde-format
+msgid "Contrast"
+msgstr "Karşıtlık"
+
+#: src/main.qml:422
+#, kde-format
+msgid "Saturation"
+msgstr "Doygunluk"
+
+#: src/main.qml:427
+#, kde-format
+msgid "Filters"
+msgstr "Süzgeçler"
+
+#: src/widgets/PhotoCaptureControls.qml:122
+#: src/widgets/VideoCaptureControls.qml:95
+#, kde-format
+msgid "View"
+msgstr "Görüntüle"
+
+#: src/widgets/VideoCaptureControls.qml:89
+#, kde-format
+msgid "Stop"
+msgstr "Durdur"
+
+#: src/widgets/VideoCaptureControls.qml:118
+#, kde-format
+msgid "Switch to Photo"
+msgstr "Fotoğrafa Geç"
+
+#: src/widgets/VideoCaptureControls.qml:124
+#, kde-format
+msgid "Quit"
+msgstr "Çık"
+
+#: src/widgets/views/Browser.qml:117 src/widgets/views/PlacesSideBar.qml:127
+#, kde-format
+msgid "Open in new tab"
+msgstr "Yeni Sekmede Aç"
+
+#: src/widgets/views/Browser.qml:125 src/widgets/views/PlacesSideBar.qml:135
+#, kde-format
+msgid "Open in split view"
+msgstr "Bölünmüş Görünümde Aç"
+
+#: src/widgets/views/PlacesSideBar.qml:144
+#, kde-format
+msgid "Remove"
+msgstr "Kaldır"
+
+#: src/widgets/views/SettingsDialog.qml:13
+#, kde-format
+msgid "Navigation"
+msgstr "Dolaşım"
+
+#: src/widgets/views/SettingsDialog.qml:14
+#, kde-format
+msgid "Configure the app plugins and behavior."
+msgstr "Uygulama eklentilerini ve davranışlarını yapılandır."
+
+#: src/widgets/views/SettingsDialog.qml:18
+#, kde-format
+msgid "Thumbnails"
+msgstr "Küçük Görseller"
+
+#: src/widgets/views/SettingsDialog.qml:19
+#, kde-format
+msgid "Show previews of images, videos and PDF files"
+msgstr "Görsellerin, videoların ve PDF dosyalarının önizlemelerini göster"
+
+#: src/widgets/views/SettingsDialog.qml:33
+#, kde-format
+msgid "Hidden Files"
+msgstr "Gizli Dosyalar"
+
+#: src/widgets/views/SettingsDialog.qml:34
+#, kde-format
+msgid "List hidden files"
+msgstr "Gizli dosyaları listele"
+
+#: src/widgets/views/SettingsDialog.qml:48
+#, kde-format
+msgid "Single Click"
+msgstr "Tek Tık"
+
+#: src/widgets/views/SettingsDialog.qml:49
+#, kde-format
+msgid "Open files with a single or double click"
+msgstr "Dosyaları tek tıkla veya çift tıkla açın"
+
+#: src/widgets/views/SettingsDialog.qml:67
+#, kde-format
+msgid "Save Session"
+msgstr "Oturumu Kaydet"
+
+#: src/widgets/views/SettingsDialog.qml:68
+#, kde-format
+msgid "Save and restore tabs"
+msgstr "Sekmeleri Kaydet ve Geri Yükle"
+
+#: src/widgets/views/SettingsDialog.qml:87
+#, kde-format
+msgid "Interface"
+msgstr "Arayüz"
+
+#: src/widgets/views/SettingsDialog.qml:88
+#, kde-format
+msgid "Configure the app UI."
+msgstr "Uygulama arayüzünü yapılandırın."
+
+#: src/widgets/views/SettingsDialog.qml:93
+#, kde-format
+msgid "Grid Size"
+msgstr "Izgara Boyutu"
+
+#: src/widgets/views/SettingsDialog.qml:94
+#, kde-format
+msgid "Thumbnails size in the grid view"
+msgstr "Izgara görünümündeki küçük görsel boyutu"
+
+#: src/widgets/views/SettingsDialog.qml:119
+#, kde-format
+msgid "S"
+msgstr "K"
+
+#: src/widgets/views/SettingsDialog.qml:125
+#, kde-format
+msgid "M"
+msgstr "O"
+
+#: src/widgets/views/SettingsDialog.qml:131
+#, kde-format
+msgid "X"
+msgstr "B"
+
+#: src/widgets/views/SettingsDialog.qml:137
+#, kde-format
+msgid "XL"
+msgstr "ÇB"
+
+#: src/widgets/views/SettingsDialog.qml:145
+#, kde-format
+msgid "Sidebar always visible"
+msgstr "Kenar Çubuğu Her Zaman Görünür"
+
+#: src/widgets/views/SettingsDialog.qml:146
+#, kde-format
+msgid "Keep sidebar on constrained spaces"
+msgstr "Dar alanlarda kenar çubuğunu açık tut"
+
+#: src/widgets/views/SettingsDialog.qml:182
+#, kde-format
+msgid "Dark Mode"
+msgstr "Koyu Kip"
+
+#~ msgid "Roll"
+#~ msgstr "Rulo"
+
+#~ msgid "Camera"
+#~ msgstr "Kamera"
