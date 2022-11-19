@@ -94,4 +94,6 @@ ecm_setup_version(${BOOTH_VERSION}
 
 add_subdirectory(src)
 
+ki18n_install(po)
+
 feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)

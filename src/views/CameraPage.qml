@@ -5,12 +5,14 @@
 
 import QtQml 2.14
 import QtQuick 2.14
-import QtQuick.Controls 2.14
-import QtMultimedia 5.14
+import QtQuick.Controls 2.15
+import QtMultimedia 5.15
 
 import org.mauikit.controls 1.3 as Maui
 
 import org.mauikit.filebrowsing 1.3 as FB
+
+import org.kde.prison.scanner 1.0 as Prison
 
 import "../widgets"
 
@@ -59,6 +61,22 @@ Pane
         }
     ]
 
+    Prison.VideoScanner
+    {
+        id: scanner
+        //         formats: Prison.Format.QRCode | Prison.Format.Aztec
+        onResultChanged: {
+            if (result.hasText) {
+                console.log(result.text, result.format);
+            } else if (result.hasBinaryData) {
+                console.log("<binary content>", result.format);
+            } else {
+                console.log("no barcode found");
+            }
+        }
+    }
+
+
     contentItem: PinchArea
     {
         pinch.minimumScale: 0
@@ -80,6 +98,8 @@ Pane
 
             autoOrientation: true
 
+            filters: settings.readQR ? [scanner] : []
+
             source: Camera
             {
                 id: _camera
@@ -88,16 +108,16 @@ Pane
                 //                    flash.mode: Camera.FlashRedEyeReduction
                 //                    imageProcessing.whiteBalanceMode: CameraImageProcessing.WhiteBalanceFlash
 
-                                            exposure {
-                                                exposureCompensation: -1.0
-                                                exposureMode: Camera.ExposurePortrait
-                                            }
+                exposure {
+                    exposureCompensation: -1.0
+                    exposureMode: Camera.ExposurePortrait
+                }
 
                 focus {
-                            focusMode: Camera.FocusPointAuto
-//                            focusPointMode: Camera.FocusPointCustom
-                            customFocusPoint: Qt.point(0.2, 0.2) // Focus relative to top-left corner
-                        }
+                    focusMode: Camera.FocusPointAuto
+                    //                            focusPointMode: Camera.FocusPointCustom
+                    customFocusPoint: Qt.point(0.2, 0.2) // Focus relative to top-left corner
+                }
 
                 imageCapture {
                     onImageCaptured:
@@ -116,27 +136,28 @@ Pane
 
             Repeater
             {
-                    model: _camera.focus.focusZones
+                model: _camera.focus.focusZones
 
-                    Rectangle
+                Rectangle
+                {
+                    border
                     {
-                        border
-                        {
-                            width: 2
-                            color: status == Camera.FocusAreaFocused ? "green" : "white"
-                        }
-
-                        color: "transparent"
-
-                        // Map from the relative, normalized frame coordinates
-                        property variant mappedRect: viewfinder.mapNormalizedRectToItem(area);
-
-                        x: mappedRect.x
-                        y: mappedRect.y
-                        width: mappedRect.width
-                        height: mappedRect.height
+                        width: 2
+                        color: status == Camera.FocusAreaFocused ? "green" : "white"
                     }
-              }
+
+                    color: "transparent"
+
+                    // Map from the relative, normalized frame coordinates
+                    property variant mappedRect: viewfinder.mapNormalizedRectToItem(area);
+
+                    x: mappedRect.x
+                    y: mappedRect.y
+                    width: mappedRect.width
+                    height: mappedRect.height
+                }
+            }
+
 
             Maui.Chip
             {
@@ -219,6 +240,31 @@ Pane
                 }
             }
         }
+
+        Rectangle
+        {
+            color: "#80ff0000"
+            x: viewfinder.mapRectToItem(scanner.result.boundingRect).x
+            y: viewfinder.mapRectToItem(scanner.result.boundingRect).y
+            width: viewfinder.mapRectToItem(scanner.result.boundingRect).width
+            height: viewfinder.mapRectToItem(scanner.result.boundingRect).height
+
+            Maui.Chip
+            {
+                z: parent.z + 9999
+                anchors.top: parent.bottom
+                anchors.left: parent.left
+
+                text: scanner.result.text
+
+                onClicked:
+                {
+                    console.log("Trying to open URL")
+                    Qt.openUrlExternally(scanner.result.text)
+                }
+            }
+        }
+
     }
 
 

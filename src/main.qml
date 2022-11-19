@@ -18,6 +18,7 @@ import "views"
 Maui.ApplicationWindow
 {
     id: root
+
     Maui.Style.styleType: Maui.Handy.isAndroid ? Maui.Style.Dark  : undefined
     Maui.Style.accentColor: "#ffaa00"
 
@@ -29,6 +30,7 @@ Maui.ApplicationWindow
         category: "Browser"
 
         property bool darkMode: true
+        property bool readQR: true
     }
 
     Maui.Page
@@ -173,6 +175,9 @@ Maui.ApplicationWindow
                 {
                     text: i18n("Read QR")
                     icon.name: "view-barcode"
+                    checkable: true
+                    checked: settings.readQR
+                    onToggled: settings.readQR = checked
                 }
 
                 Menu

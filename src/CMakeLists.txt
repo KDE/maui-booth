@@ -30,7 +30,14 @@ else()
     target_link_libraries(${PROJECT_NAME} Qt5::Widgets)
 endif()
 
-target_link_libraries(${PROJECT_NAME} MauiKit Qt5::Quick Qt5::Qml Qt5::Multimedia)
+target_link_libraries(${PROJECT_NAME}
+    MauiKit
+    Qt5::Quick
+    Qt5::Qml
+    Qt5::Multimedia
+    KF5::I18n
+    KF5::CoreAddons
+    )
 
 if(UNIX AND NOT APPLE AND NOT ANDROID)
     install(TARGETS ${PROJECT_NAME} ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
