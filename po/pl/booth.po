@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maui-booth\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-12 00:43+0000\n"
+"POT-Creation-Date: 2022-11-20 00:45+0000\n"
 "PO-Revision-Date: 2021-11-13 08:58+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -18,160 +18,160 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 20.12.1\n"
 
-#: src/main.cpp:50
+#: src/main.cpp:48
 #, kde-format
 msgid "Booth"
 msgstr "Budka"
 
-#: src/main.cpp:50
+#: src/main.cpp:48
 #, kde-format
 msgid "Camera app to take pictures and record videos."
 msgstr "Program aparatu do wykonywania zdjęć i nagrywania filmów."
 
-#: src/main.cpp:50
+#: src/main.cpp:48
 #, fuzzy, kde-format
 #| msgid "© 2020 Maui Development Team"
 msgid "© 2020 - %1 Maui Development Team"
 msgstr "© 2020 Zespół programistów Maui"
 
-#: src/main.cpp:52
+#: src/main.cpp:50
 #, kde-format
 msgid "Camilo Higuita"
 msgstr "Camilo Higuita"
 
-#: src/main.cpp:52
+#: src/main.cpp:50
 #, kde-format
 msgid "Developer"
 msgstr "Programista"
 
-#: src/main.qml:85
+#: src/main.qml:87
 #, fuzzy, kde-format
 #| msgid "Dark Mode"
 msgid "Mode"
 msgstr "Tryb ciemny"
 
-#: src/main.qml:98 src/main.qml:227
+#: src/main.qml:100 src/main.qml:232
 #, kde-format
 msgid "Manual"
 msgstr ""
 
-#: src/main.qml:99
+#: src/main.qml:101
 #, kde-format
 msgid "Hyperfocal"
 msgstr ""
 
-#: src/main.qml:100
+#: src/main.qml:102
 #, kde-format
 msgid "Infinity"
 msgstr ""
 
-#: src/main.qml:101 src/main.qml:129
+#: src/main.qml:103 src/main.qml:131
 #, kde-format
 msgid "Auto"
 msgstr "Auto"
 
-#: src/main.qml:102
+#: src/main.qml:104
 #, kde-format
 msgid "Continuous"
 msgstr ""
 
-#: src/main.qml:103
+#: src/main.qml:105
 #, kde-format
 msgid "Macro"
 msgstr ""
 
-#: src/main.qml:117
+#: src/main.qml:119
 #, kde-format
 msgid "Point"
 msgstr ""
 
-#: src/main.qml:130
+#: src/main.qml:132
 #, kde-format
 msgid "Center"
 msgstr ""
 
-#: src/main.qml:131
+#: src/main.qml:133
 #, kde-format
 msgid "Face Detection"
 msgstr ""
 
-#: src/main.qml:132
+#: src/main.qml:134
 #, kde-format
 msgid "Custom"
 msgstr ""
 
-#: src/main.qml:174
+#: src/main.qml:176
 #, kde-format
 msgid "Read QR"
 msgstr ""
 
-#: src/main.qml:180
+#: src/main.qml:185
 #, kde-format
 msgid "Resolutions"
 msgstr ""
 
-#: src/main.qml:207
+#: src/main.qml:212
 #, kde-format
 msgid "Photo"
 msgstr "Zdjęcie"
 
-#: src/main.qml:218
+#: src/main.qml:223
 #, kde-format
 msgid "Video"
 msgstr "Film"
 
-#: src/main.qml:272
+#: src/main.qml:277
 #, kde-format
 msgid "Settings"
 msgstr ""
 
-#: src/main.qml:279
+#: src/main.qml:284
 #, kde-format
 msgid "About"
 msgstr ""
 
-#: src/main.qml:386
+#: src/main.qml:391
 #, kde-format
 msgid "Aperture"
 msgstr ""
 
-#: src/main.qml:391
+#: src/main.qml:396
 #, kde-format
 msgid "ISO"
 msgstr ""
 
-#: src/main.qml:396
+#: src/main.qml:401
 #, kde-format
 msgid "Shutter"
 msgstr ""
 
-#: src/main.qml:401
+#: src/main.qml:406
 #, kde-format
 msgid "Modes"
 msgstr ""
 
-#: src/main.qml:406
+#: src/main.qml:411
 #, kde-format
 msgid "Brightness"
 msgstr ""
 
-#: src/main.qml:411
+#: src/main.qml:416
 #, kde-format
 msgid "White Balance"
 msgstr ""
 
-#: src/main.qml:417
+#: src/main.qml:422
 #, kde-format
 msgid "Contrast"
 msgstr ""
 
-#: src/main.qml:422
+#: src/main.qml:427
 #, fuzzy, kde-format
 #| msgid "Navigation"
 msgid "Saturation"
 msgstr "Poruszanie się"
 
-#: src/main.qml:427
+#: src/main.qml:432
 #, kde-format
 msgid "Filters"
 msgstr ""

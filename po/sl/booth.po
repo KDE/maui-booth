@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maui-booth\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-12 00:43+0000\n"
+"POT-Creation-Date: 2022-11-20 00:45+0000\n"
 "PO-Revision-Date: 2022-08-22 08:02+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -18,157 +18,157 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
 
-#: src/main.cpp:50
+#: src/main.cpp:48
 #, kde-format
 msgid "Booth"
 msgstr "Stojnica"
 
-#: src/main.cpp:50
+#: src/main.cpp:48
 #, kde-format
 msgid "Camera app to take pictures and record videos."
 msgstr "Aplikacija kamere za zajem fotografij in snemanje videov."
 
-#: src/main.cpp:50
+#: src/main.cpp:48
 #, kde-format
 msgid "© 2020 - %1 Maui Development Team"
 msgstr "© 2020  - %1 Maui razvojna skupina"
 
-#: src/main.cpp:52
+#: src/main.cpp:50
 #, kde-format
 msgid "Camilo Higuita"
 msgstr "Camilo Higuita"
 
-#: src/main.cpp:52
+#: src/main.cpp:50
 #, kde-format
 msgid "Developer"
 msgstr "Razvijalec"
 
-#: src/main.qml:85
+#: src/main.qml:87
 #, kde-format
 msgid "Mode"
 msgstr "Način"
 
-#: src/main.qml:98 src/main.qml:227
+#: src/main.qml:100 src/main.qml:232
 #, kde-format
 msgid "Manual"
 msgstr "Ročno"
 
-#: src/main.qml:99
+#: src/main.qml:101
 #, kde-format
 msgid "Hyperfocal"
 msgstr "Hiperfokalno"
 
-#: src/main.qml:100
+#: src/main.qml:102
 #, kde-format
 msgid "Infinity"
 msgstr "Neskončnost"
 
-#: src/main.qml:101 src/main.qml:129
+#: src/main.qml:103 src/main.qml:131
 #, kde-format
 msgid "Auto"
 msgstr "Avto"
 
-#: src/main.qml:102
+#: src/main.qml:104
 #, kde-format
 msgid "Continuous"
 msgstr "Zvezno"
 
-#: src/main.qml:103
+#: src/main.qml:105
 #, kde-format
 msgid "Macro"
 msgstr "Makro"
 
-#: src/main.qml:117
+#: src/main.qml:119
 #, kde-format
 msgid "Point"
 msgstr "Točka"
 
-#: src/main.qml:130
+#: src/main.qml:132
 #, kde-format
 msgid "Center"
 msgstr "Center"
 
-#: src/main.qml:131
+#: src/main.qml:133
 #, kde-format
 msgid "Face Detection"
 msgstr "Zaznavanje obrazov"
 
-#: src/main.qml:132
+#: src/main.qml:134
 #, kde-format
 msgid "Custom"
 msgstr "Po meri"
 
-#: src/main.qml:174
+#: src/main.qml:176
 #, kde-format
 msgid "Read QR"
 msgstr "Beri QR"
 
-#: src/main.qml:180
+#: src/main.qml:185
 #, kde-format
 msgid "Resolutions"
 msgstr "Ločljivosti"
 
-#: src/main.qml:207
+#: src/main.qml:212
 #, kde-format
 msgid "Photo"
 msgstr "Fotografija"
 
-#: src/main.qml:218
+#: src/main.qml:223
 #, kde-format
 msgid "Video"
 msgstr "Video"
 
-#: src/main.qml:272
+#: src/main.qml:277
 #, kde-format
 msgid "Settings"
 msgstr "Nastavitve"
 
-#: src/main.qml:279
+#: src/main.qml:284
 #, kde-format
 msgid "About"
 msgstr "O programu"
 
-#: src/main.qml:386
+#: src/main.qml:391
 #, kde-format
 msgid "Aperture"
 msgstr "Zaslonka"
 
-#: src/main.qml:391
+#: src/main.qml:396
 #, kde-format
 msgid "ISO"
 msgstr "ISO"
 
-#: src/main.qml:396
+#: src/main.qml:401
 #, kde-format
 msgid "Shutter"
 msgstr "Zaklep"
 
-#: src/main.qml:401
+#: src/main.qml:406
 #, kde-format
 msgid "Modes"
 msgstr "Načini"
 
-#: src/main.qml:406
+#: src/main.qml:411
 #, kde-format
 msgid "Brightness"
 msgstr "Svetlost"
 
-#: src/main.qml:411
+#: src/main.qml:416
 #, kde-format
 msgid "White Balance"
 msgstr "Ravnotežje beline"
 
-#: src/main.qml:417
+#: src/main.qml:422
 #, kde-format
 msgid "Contrast"
 msgstr "Kontrast"
 
-#: src/main.qml:422
+#: src/main.qml:427
 #, kde-format
 msgid "Saturation"
 msgstr "Nasičenje"
 
-#: src/main.qml:427
+#: src/main.qml:432
 #, kde-format
 msgid "Filters"
 msgstr "Filtri"
