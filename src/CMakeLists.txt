@@ -41,9 +41,7 @@ target_link_libraries(${PROJECT_NAME}
 
 if(UNIX AND NOT APPLE AND NOT ANDROID)
     install(TARGETS ${PROJECT_NAME} ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
-    install(FILES org.maui.booth.desktop DESTINATION ${XDG_APPS_INSTALL_DIR})
 
     #TODO: port to ecm_install_icons()
     install(FILES assets/booth.svg DESTINATION ${KDE_INSTALL_ICONDIR}/hicolor/scalable/apps)
-    # install(FILES org.kde.booth.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 endif()
