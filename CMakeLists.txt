@@ -5,7 +5,7 @@
 
 cmake_minimum_required(VERSION 3.16)
 
-set(BOOTH_VERSION 1.0.1)
+set(BOOTH_VERSION 1.0.2)
 project(booth VERSION ${BOOTH_VERSION})
 
 set(CMAKE_CXX_STANDARD 17)
