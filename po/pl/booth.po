@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the maui-booth package.
 #
-# Łukasz Wojniłowicz <<lukasz.wojnilowicz@gmail.com>>, 2021.
+# Łukasz Wojniłowicz <<lukasz.wojnilowicz@gmail.com>>, 2021, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: maui-booth\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-20 00:45+0000\n"
-"PO-Revision-Date: 2021-11-13 08:58+0100\n"
+"PO-Revision-Date: 2023-03-05 08:14+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 20.12.1\n"
+"X-Generator: Lokalize 22.12.2\n"
 
 #: src/main.cpp:48
 #, kde-format
@@ -29,10 +29,9 @@ msgid "Camera app to take pictures and record videos."
 msgstr "Program aparatu do wykonywania zdjęć i nagrywania filmów."
 
 #: src/main.cpp:48
-#, fuzzy, kde-format
-#| msgid "© 2020 Maui Development Team"
+#, kde-format
 msgid "© 2020 - %1 Maui Development Team"
-msgstr "© 2020 Zespół programistów Maui"
+msgstr "© 2020 - %1 Zespół programistów Maui"
 
 #: src/main.cpp:50
 #, kde-format
@@ -45,25 +44,24 @@ msgid "Developer"
 msgstr "Programista"
 
 #: src/main.qml:87
-#, fuzzy, kde-format
-#| msgid "Dark Mode"
+#, kde-format
 msgid "Mode"
-msgstr "Tryb ciemny"
+msgstr "Tryb"
 
 #: src/main.qml:100 src/main.qml:232
 #, kde-format
 msgid "Manual"
-msgstr ""
+msgstr "Ręczny"
 
 #: src/main.qml:101
 #, kde-format
 msgid "Hyperfocal"
-msgstr ""
+msgstr "Hiperogniskowa"
 
 #: src/main.qml:102
 #, kde-format
 msgid "Infinity"
-msgstr ""
+msgstr "Nieskończoność"
 
 #: src/main.qml:103 src/main.qml:131
 #, kde-format
@@ -73,42 +71,42 @@ msgstr "Auto"
 #: src/main.qml:104
 #, kde-format
 msgid "Continuous"
-msgstr ""
+msgstr "Ciągła"
 
 #: src/main.qml:105
 #, kde-format
 msgid "Macro"
-msgstr ""
+msgstr "Makro"
 
 #: src/main.qml:119
 #, kde-format
 msgid "Point"
-msgstr ""
+msgstr "Punkt"
 
 #: src/main.qml:132
 #, kde-format
 msgid "Center"
-msgstr ""
+msgstr "Wyśrodkuj"
 
 #: src/main.qml:133
 #, kde-format
 msgid "Face Detection"
-msgstr ""
+msgstr "Rozpoznawanie twarzy"
 
 #: src/main.qml:134
 #, kde-format
 msgid "Custom"
-msgstr ""
+msgstr "Własny"
 
 #: src/main.qml:176
 #, kde-format
 msgid "Read QR"
-msgstr ""
+msgstr "Sczytaj QR"
 
 #: src/main.qml:185
 #, kde-format
 msgid "Resolutions"
-msgstr ""
+msgstr "Rozdzielczość"
 
 #: src/main.qml:212
 #, kde-format
@@ -123,58 +121,57 @@ msgstr "Film"
 #: src/main.qml:277
 #, kde-format
 msgid "Settings"
-msgstr ""
+msgstr "Ustawienia"
 
 #: src/main.qml:284
 #, kde-format
 msgid "About"
-msgstr ""
+msgstr "O programie"
 
 #: src/main.qml:391
 #, kde-format
 msgid "Aperture"
-msgstr ""
+msgstr "Przesłona"
 
 #: src/main.qml:396
 #, kde-format
 msgid "ISO"
-msgstr ""
+msgstr "ISO"
 
 #: src/main.qml:401
 #, kde-format
 msgid "Shutter"
-msgstr ""
+msgstr "Migawka"
 
 #: src/main.qml:406
 #, kde-format
 msgid "Modes"
-msgstr ""
+msgstr "Tryby"
 
 #: src/main.qml:411
 #, kde-format
 msgid "Brightness"
-msgstr ""
+msgstr "Jasność"
 
 #: src/main.qml:416
 #, kde-format
 msgid "White Balance"
-msgstr ""
+msgstr "Równowaga bieli"
 
 #: src/main.qml:422
 #, kde-format
 msgid "Contrast"
-msgstr ""
+msgstr "Kontrast"
 
 #: src/main.qml:427
-#, fuzzy, kde-format
-#| msgid "Navigation"
+#, kde-format
 msgid "Saturation"
-msgstr "Poruszanie się"
+msgstr "Nasycenie"
 
 #: src/main.qml:432
 #, kde-format
 msgid "Filters"
-msgstr ""
+msgstr "Filtry"
 
 #: src/widgets/PhotoCaptureControls.qml:122
 #: src/widgets/VideoCaptureControls.qml:95
@@ -215,7 +212,7 @@ msgstr "Usuń"
 #: src/widgets/views/SettingsDialog.qml:13
 #, kde-format
 msgid "Navigation"
-msgstr "Poruszanie się"
+msgstr "Przemieszczanie się"
 
 #: src/widgets/views/SettingsDialog.qml:14
 #, kde-format
@@ -235,7 +232,7 @@ msgstr "Pokaż podglądy obrazów, filmów oraz plików PDF"
 #: src/widgets/views/SettingsDialog.qml:33
 #, kde-format
 msgid "Hidden Files"
-msgstr "Ukryte pliki"
+msgstr "Pliki ukryte"
 
 #: src/widgets/views/SettingsDialog.qml:34
 #, kde-format
@@ -255,7 +252,7 @@ msgstr "Otwieraj pliki jednokrotnym lub dwukrotnym naciśnięciem"
 #: src/widgets/views/SettingsDialog.qml:67
 #, kde-format
 msgid "Save Session"
-msgstr "Zapisz sesję"
+msgstr "Zapisz posiedzenie"
 
 #: src/widgets/views/SettingsDialog.qml:68
 #, kde-format
