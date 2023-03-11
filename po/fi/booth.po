@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: maui-booth\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-20 00:45+0000\n"
-"PO-Revision-Date: 2022-07-11 18:41+0300\n"
+"PO-Revision-Date: 2022-12-03 10:02+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 22.08.3\n"
 
 #: src/main.cpp:48
 #, kde-format
@@ -43,25 +43,24 @@ msgid "Developer"
 msgstr "Kehittäjä"
 
 #: src/main.qml:87
-#, fuzzy, kde-format
-#| msgid "Dark Mode"
+#, kde-format
 msgid "Mode"
-msgstr "Tumma tila"
+msgstr "Tila"
 
 #: src/main.qml:100 src/main.qml:232
 #, kde-format
 msgid "Manual"
-msgstr ""
+msgstr "Manuaalinen"
 
 #: src/main.qml:101
 #, kde-format
 msgid "Hyperfocal"
-msgstr ""
+msgstr "Hyperfokaalinen"
 
 #: src/main.qml:102
 #, kde-format
 msgid "Infinity"
-msgstr ""
+msgstr "Äärettömyys"
 
 #: src/main.qml:103 src/main.qml:131
 #, kde-format
@@ -71,42 +70,42 @@ msgstr "Automaattinen"
 #: src/main.qml:104
 #, kde-format
 msgid "Continuous"
-msgstr ""
+msgstr "Jatkuva"
 
 #: src/main.qml:105
 #, kde-format
 msgid "Macro"
-msgstr ""
+msgstr "Makro"
 
 #: src/main.qml:119
 #, kde-format
 msgid "Point"
-msgstr ""
+msgstr "Piste"
 
 #: src/main.qml:132
 #, kde-format
 msgid "Center"
-msgstr ""
+msgstr "Keskusta"
 
 #: src/main.qml:133
 #, kde-format
 msgid "Face Detection"
-msgstr ""
+msgstr "Kasvontunnistus"
 
 #: src/main.qml:134
 #, kde-format
 msgid "Custom"
-msgstr ""
+msgstr "Mukautettu"
 
 #: src/main.qml:176
 #, kde-format
 msgid "Read QR"
-msgstr ""
+msgstr "Lue QR"
 
 #: src/main.qml:185
 #, kde-format
 msgid "Resolutions"
-msgstr ""
+msgstr "Tarkkuudet"
 
 #: src/main.qml:212
 #, kde-format
@@ -131,48 +130,47 @@ msgstr "Tietoa"
 #: src/main.qml:391
 #, kde-format
 msgid "Aperture"
-msgstr ""
+msgstr "Aukko"
 
 #: src/main.qml:396
 #, kde-format
 msgid "ISO"
-msgstr ""
+msgstr "ISO"
 
 #: src/main.qml:401
 #, kde-format
 msgid "Shutter"
-msgstr ""
+msgstr "Suljin"
 
 #: src/main.qml:406
 #, kde-format
 msgid "Modes"
-msgstr ""
+msgstr "Tilat"
 
 #: src/main.qml:411
 #, kde-format
 msgid "Brightness"
-msgstr ""
+msgstr "Kirkkaus"
 
 #: src/main.qml:416
 #, kde-format
 msgid "White Balance"
-msgstr ""
+msgstr "Valkotasapaino"
 
 #: src/main.qml:422
 #, kde-format
 msgid "Contrast"
-msgstr ""
+msgstr "Kontrasti"
 
 #: src/main.qml:427
-#, fuzzy, kde-format
-#| msgid "Navigation"
+#, kde-format
 msgid "Saturation"
-msgstr "Liikkuminen"
+msgstr "Kylläisyys"
 
 #: src/main.qml:432
 #, kde-format
 msgid "Filters"
-msgstr ""
+msgstr "Suodattimet"
 
 #: src/widgets/PhotoCaptureControls.qml:122
 #: src/widgets/VideoCaptureControls.qml:95
