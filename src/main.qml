@@ -40,6 +40,8 @@ Maui.ApplicationWindow
         floatingHeader: true
         autoHideHeader: true
 
+        showCSDControls: true
+
         footBar.rightContent: Maui.ToolButtonMenu
         {
             icon.name: "view-refresh"
