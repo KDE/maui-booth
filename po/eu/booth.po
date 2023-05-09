@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maui-booth\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-20 00:45+0000\n"
+"POT-Creation-Date: 2023-05-09 00:46+0000\n"
 "PO-Revision-Date: 2022-08-21 09:37+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -45,132 +45,132 @@ msgstr "Camilo Higuita"
 msgid "Developer"
 msgstr "Garatzailea"
 
-#: src/main.qml:87
+#: src/main.qml:89
 #, kde-format
 msgid "Mode"
 msgstr "Modua"
 
-#: src/main.qml:100 src/main.qml:232
+#: src/main.qml:102 src/main.qml:234
 #, kde-format
 msgid "Manual"
 msgstr "Eskuz"
 
-#: src/main.qml:101
+#: src/main.qml:103
 #, kde-format
 msgid "Hyperfocal"
 msgstr "Hiperfokala"
 
-#: src/main.qml:102
+#: src/main.qml:104
 #, kde-format
 msgid "Infinity"
 msgstr "Mugagabea"
 
-#: src/main.qml:103 src/main.qml:131
+#: src/main.qml:105 src/main.qml:133
 #, kde-format
 msgid "Auto"
 msgstr "Automatikoa"
 
-#: src/main.qml:104
+#: src/main.qml:106
 #, kde-format
 msgid "Continuous"
 msgstr "Jarraitua"
 
-#: src/main.qml:105
+#: src/main.qml:107
 #, kde-format
 msgid "Macro"
 msgstr "Makro"
 
-#: src/main.qml:119
+#: src/main.qml:121
 #, kde-format
 msgid "Point"
 msgstr "Puntua"
 
-#: src/main.qml:132
+#: src/main.qml:134
 #, kde-format
 msgid "Center"
 msgstr "Erdiratzea"
 
-#: src/main.qml:133
+#: src/main.qml:135
 #, kde-format
 msgid "Face Detection"
 msgstr "Aurpegia atzematea"
 
-#: src/main.qml:134
+#: src/main.qml:136
 #, kde-format
 msgid "Custom"
 msgstr "Norberak finkatua"
 
-#: src/main.qml:176
+#: src/main.qml:178
 #, kde-format
 msgid "Read QR"
 msgstr "QR irakurtzea"
 
-#: src/main.qml:185
+#: src/main.qml:187
 #, kde-format
 msgid "Resolutions"
 msgstr "Bereizmenak"
 
-#: src/main.qml:212
+#: src/main.qml:214
 #, kde-format
 msgid "Photo"
 msgstr "Argazkia"
 
-#: src/main.qml:223
+#: src/main.qml:225
 #, kde-format
 msgid "Video"
 msgstr "Bideoa"
 
-#: src/main.qml:277
+#: src/main.qml:279
 #, kde-format
 msgid "Settings"
 msgstr "Ezarpenak"
 
-#: src/main.qml:284
+#: src/main.qml:286
 #, kde-format
 msgid "About"
 msgstr "Honi buruz"
 
-#: src/main.qml:391
+#: src/main.qml:393
 #, kde-format
 msgid "Aperture"
 msgstr "Irekidura"
 
-#: src/main.qml:396
+#: src/main.qml:398
 #, kde-format
 msgid "ISO"
 msgstr "ISO"
 
-#: src/main.qml:401
+#: src/main.qml:403
 #, kde-format
 msgid "Shutter"
 msgstr "Obturadorea"
 
-#: src/main.qml:406
+#: src/main.qml:408
 #, kde-format
 msgid "Modes"
 msgstr "Moduak"
 
-#: src/main.qml:411
+#: src/main.qml:413
 #, kde-format
 msgid "Brightness"
 msgstr "Distira"
 
-#: src/main.qml:416
+#: src/main.qml:418
 #, kde-format
 msgid "White Balance"
 msgstr "Zurien oreka"
 
-#: src/main.qml:422
+#: src/main.qml:424
 #, kde-format
 msgid "Contrast"
 msgstr "Kontrastea"
 
-#: src/main.qml:427
+#: src/main.qml:429
 #, kde-format
 msgid "Saturation"
 msgstr "Asetasuna"
 
-#: src/main.qml:432
+#: src/main.qml:434
 #, kde-format
 msgid "Filters"
 msgstr "Iragazkiak"

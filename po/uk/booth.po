@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: booth\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-20 00:45+0000\n"
+"POT-Creation-Date: 2023-05-09 00:46+0000\n"
 "PO-Revision-Date: 2022-08-12 09:05+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -46,132 +46,132 @@ msgstr "Camilo Higuita"
 msgid "Developer"
 msgstr "Розробник"
 
-#: src/main.qml:87
+#: src/main.qml:89
 #, kde-format
 msgid "Mode"
 msgstr "Режим"
 
-#: src/main.qml:100 src/main.qml:232
+#: src/main.qml:102 src/main.qml:234
 #, kde-format
 msgid "Manual"
 msgstr "Вручну"
 
-#: src/main.qml:101
+#: src/main.qml:103
 #, kde-format
 msgid "Hyperfocal"
 msgstr "Гіперфокальний"
 
-#: src/main.qml:102
+#: src/main.qml:104
 #, kde-format
 msgid "Infinity"
 msgstr "Нескінченість"
 
-#: src/main.qml:103 src/main.qml:131
+#: src/main.qml:105 src/main.qml:133
 #, kde-format
 msgid "Auto"
 msgstr "Авто"
 
-#: src/main.qml:104
+#: src/main.qml:106
 #, kde-format
 msgid "Continuous"
 msgstr "Неперервний"
 
-#: src/main.qml:105
+#: src/main.qml:107
 #, kde-format
 msgid "Macro"
 msgstr "Макро"
 
-#: src/main.qml:119
+#: src/main.qml:121
 #, kde-format
 msgid "Point"
 msgstr "Точковий"
 
-#: src/main.qml:132
+#: src/main.qml:134
 #, kde-format
 msgid "Center"
 msgstr "Центральний"
 
-#: src/main.qml:133
+#: src/main.qml:135
 #, kde-format
 msgid "Face Detection"
 msgstr "Виявлення облич"
 
-#: src/main.qml:134
+#: src/main.qml:136
 #, kde-format
 msgid "Custom"
 msgstr "Нетиповий"
 
-#: src/main.qml:176
+#: src/main.qml:178
 #, kde-format
 msgid "Read QR"
 msgstr "Читання QR"
 
-#: src/main.qml:185
+#: src/main.qml:187
 #, kde-format
 msgid "Resolutions"
 msgstr "Роздільні здатності"
 
-#: src/main.qml:212
+#: src/main.qml:214
 #, kde-format
 msgid "Photo"
 msgstr "Фото"
 
-#: src/main.qml:223
+#: src/main.qml:225
 #, kde-format
 msgid "Video"
 msgstr "Відео"
 
-#: src/main.qml:277
+#: src/main.qml:279
 #, kde-format
 msgid "Settings"
 msgstr "Параметри"
 
-#: src/main.qml:284
+#: src/main.qml:286
 #, kde-format
 msgid "About"
 msgstr "Про програму"
 
-#: src/main.qml:391
+#: src/main.qml:393
 #, kde-format
 msgid "Aperture"
 msgstr "Діафрагма"
 
-#: src/main.qml:396
+#: src/main.qml:398
 #, kde-format
 msgid "ISO"
 msgstr "ISO"
 
-#: src/main.qml:401
+#: src/main.qml:403
 #, kde-format
 msgid "Shutter"
 msgstr "Затвор"
 
-#: src/main.qml:406
+#: src/main.qml:408
 #, kde-format
 msgid "Modes"
 msgstr "Режими"
 
-#: src/main.qml:411
+#: src/main.qml:413
 #, kde-format
 msgid "Brightness"
 msgstr "Яскравість"
 
-#: src/main.qml:416
+#: src/main.qml:418
 #, kde-format
 msgid "White Balance"
 msgstr "Баланс білого"
 
-#: src/main.qml:422
+#: src/main.qml:424
 #, kde-format
 msgid "Contrast"
 msgstr "Контрастність"
 
-#: src/main.qml:427
+#: src/main.qml:429
 #, kde-format
 msgid "Saturation"
 msgstr "Насиченість"
 
-#: src/main.qml:432
+#: src/main.qml:434
 #, kde-format
 msgid "Filters"
 msgstr "Фільтри"

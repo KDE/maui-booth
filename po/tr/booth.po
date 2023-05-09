@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maui-booth\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-20 00:45+0000\n"
+"POT-Creation-Date: 2023-05-09 00:46+0000\n"
 "PO-Revision-Date: 2022-08-12 12:38+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -42,132 +42,132 @@ msgstr "Camilo Higuita"
 msgid "Developer"
 msgstr "Geliştirici"
 
-#: src/main.qml:87
+#: src/main.qml:89
 #, kde-format
 msgid "Mode"
 msgstr "Kip"
 
-#: src/main.qml:100 src/main.qml:232
+#: src/main.qml:102 src/main.qml:234
 #, kde-format
 msgid "Manual"
 msgstr "El İle"
 
-#: src/main.qml:101
+#: src/main.qml:103
 #, kde-format
 msgid "Hyperfocal"
 msgstr "Hiperodaksal"
 
-#: src/main.qml:102
+#: src/main.qml:104
 #, kde-format
 msgid "Infinity"
 msgstr "Sonsuzluk"
 
-#: src/main.qml:103 src/main.qml:131
+#: src/main.qml:105 src/main.qml:133
 #, kde-format
 msgid "Auto"
 msgstr "Otomatik"
 
-#: src/main.qml:104
+#: src/main.qml:106
 #, kde-format
 msgid "Continuous"
 msgstr "Sürekli"
 
-#: src/main.qml:105
+#: src/main.qml:107
 #, kde-format
 msgid "Macro"
 msgstr "Makro"
 
-#: src/main.qml:119
+#: src/main.qml:121
 #, kde-format
 msgid "Point"
 msgstr "Nokta"
 
-#: src/main.qml:132
+#: src/main.qml:134
 #, kde-format
 msgid "Center"
 msgstr "Merkez"
 
-#: src/main.qml:133
+#: src/main.qml:135
 #, kde-format
 msgid "Face Detection"
 msgstr "Yüz Algılama"
 
-#: src/main.qml:134
+#: src/main.qml:136
 #, kde-format
 msgid "Custom"
 msgstr "Özel"
 
-#: src/main.qml:176
+#: src/main.qml:178
 #, kde-format
 msgid "Read QR"
 msgstr "Kare Kod Oku"
 
-#: src/main.qml:185
+#: src/main.qml:187
 #, kde-format
 msgid "Resolutions"
 msgstr "Çözünürlükler"
 
-#: src/main.qml:212
+#: src/main.qml:214
 #, kde-format
 msgid "Photo"
 msgstr "Fotoğraf"
 
-#: src/main.qml:223
+#: src/main.qml:225
 #, kde-format
 msgid "Video"
 msgstr "Video"
 
-#: src/main.qml:277
+#: src/main.qml:279
 #, kde-format
 msgid "Settings"
 msgstr "Ayarlar"
 
-#: src/main.qml:284
+#: src/main.qml:286
 #, kde-format
 msgid "About"
 msgstr "Hakkında"
 
-#: src/main.qml:391
+#: src/main.qml:393
 #, kde-format
 msgid "Aperture"
 msgstr "Açıklık"
 
-#: src/main.qml:396
+#: src/main.qml:398
 #, kde-format
 msgid "ISO"
 msgstr "ISO"
 
-#: src/main.qml:401
+#: src/main.qml:403
 #, kde-format
 msgid "Shutter"
 msgstr "Deklanşör"
 
-#: src/main.qml:406
+#: src/main.qml:408
 #, kde-format
 msgid "Modes"
 msgstr "Kipler"
 
-#: src/main.qml:411
+#: src/main.qml:413
 #, kde-format
 msgid "Brightness"
 msgstr "Parlaklık"
 
-#: src/main.qml:416
+#: src/main.qml:418
 #, kde-format
 msgid "White Balance"
 msgstr "Beyaz Dengesi"
 
-#: src/main.qml:422
+#: src/main.qml:424
 #, kde-format
 msgid "Contrast"
 msgstr "Karşıtlık"
 
-#: src/main.qml:427
+#: src/main.qml:429
 #, kde-format
 msgid "Saturation"
 msgstr "Doygunluk"
 
-#: src/main.qml:432
+#: src/main.qml:434
 #, kde-format
 msgid "Filters"
 msgstr "Süzgeçler"
