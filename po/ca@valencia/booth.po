@@ -152,7 +152,7 @@ msgstr "Modes"
 #: src/main.qml:413
 #, kde-format
 msgid "Brightness"
-msgstr "Lluminositat"
+msgstr "Brillantor"
 
 #: src/main.qml:418
 #, kde-format
