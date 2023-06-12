@@ -13,6 +13,7 @@
   <name xml:lang="eu">Booth</name>
   <name xml:lang="fi">Booth</name>
   <name xml:lang="fr">Booth</name>
+  <name xml:lang="gl">Booth</name>
   <name xml:lang="id">Booth</name>
   <name xml:lang="it">Booth</name>
   <name xml:lang="ka">Booth</name>
@@ -40,6 +41,7 @@
   <summary xml:lang="eu">Argazkiak eta bideoak ateratzea</summary>
   <summary xml:lang="fi">Kuvaa valokuvia ja videoita</summary>
   <summary xml:lang="fr">Prendre des images et des vidéos</summary>
+  <summary xml:lang="gl">Saque fotos e grave vídeos</summary>
   <summary xml:lang="id">Ambil gambar dan video</summary>
   <summary xml:lang="it">Scatta fotografie e riprendi video</summary>
   <summary xml:lang="ka">გადაიღეთ სურათები და ვიდეოები</summary>
@@ -68,6 +70,7 @@
     <p xml:lang="eu">«Booth» kamera-aplikazio konbergente bat da</p>
     <p xml:lang="fi">Booth on mukautuva kamerasovellus.</p>
     <p xml:lang="fr">Booth est une application de caméra convergente.</p>
+    <p xml:lang="gl">Booth é unha aplicación de cámara converxente.</p>
     <p xml:lang="id">Booth adalah sebuah aplikasi kamera yang terpusat.</p>
     <p xml:lang="it">Booth è un'app convergente per fotocamera.</p>
     <p xml:lang="ka">Booth კონვერგენტული კამერის აპია.</p>
@@ -100,6 +103,7 @@
       <caption xml:lang="eu">«Booth» kamera aplikazioa</caption>
       <caption xml:lang="fi">Booth-kamerasovellus</caption>
       <caption xml:lang="fr">Booth, une application de caméra</caption>
+      <caption xml:lang="gl">Aplicación de cámara Booth.</caption>
       <caption xml:lang="id">Booth aplikasi kamera</caption>
       <caption xml:lang="it">App fotocamera Booth</caption>
       <caption xml:lang="ka">Booth კონვერგენტული კამერის აპი</caption>
