@@ -226,7 +226,7 @@ msgstr "Miniaturas"
 #: src/widgets/views/SettingsDialog.qml:19
 #, kde-format
 msgid "Show previews of images, videos and PDF files"
-msgstr "Mostrar vistas previas das imaxes, vídeos e ficheiros PDF."
+msgstr "Amosar vistas previas das imaxes, vídeos e ficheiros PDF."
 
 #: src/widgets/views/SettingsDialog.qml:33
 #, kde-format
