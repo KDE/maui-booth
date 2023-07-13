@@ -9,6 +9,7 @@
   <name xml:lang="cs">Booth</name>
   <name xml:lang="de">Booth</name>
   <name xml:lang="en-GB">Booth</name>
+  <name xml:lang="eo">Booth</name>
   <name xml:lang="es">Booth</name>
   <name xml:lang="eu">Booth</name>
   <name xml:lang="fi">Booth</name>
@@ -37,6 +38,7 @@
   <summary xml:lang="ca-valencia">Pren fotografies o vídeos</summary>
   <summary xml:lang="de">Bilder und Videos aufnehmen</summary>
   <summary xml:lang="en-GB">Take pictures and videos</summary>
+  <summary xml:lang="eo">Preni fotojn kaj videojn</summary>
   <summary xml:lang="es">Hacer fotos y vídeos</summary>
   <summary xml:lang="eu">Argazkiak eta bideoak ateratzea</summary>
   <summary xml:lang="fi">Kuvaa valokuvia ja videoita</summary>
@@ -66,6 +68,7 @@
     <p xml:lang="ca-valencia">Booth és una aplicació convergent de càmera.</p>
     <p xml:lang="de">Booth ist eine konvergente Kamera-App.</p>
     <p xml:lang="en-GB">Booth is a convergent camera app.</p>
+    <p xml:lang="eo">Booth estas konverĝa kamerao-app.</p>
     <p xml:lang="es">Booth es una aplicación de cámara convergente.</p>
     <p xml:lang="eu">«Booth» kamera-aplikazio konbergente bat da</p>
     <p xml:lang="fi">Booth on mukautuva kamerasovellus.</p>
@@ -99,6 +102,7 @@
       <caption xml:lang="ca-valencia">Aplicació de càmera Booth</caption>
       <caption xml:lang="de">Booth-Kamera-App</caption>
       <caption xml:lang="en-GB">Booth camera app</caption>
+      <caption xml:lang="eo">Booth kamerao-app</caption>
       <caption xml:lang="es">Aplicación de cámara Booth</caption>
       <caption xml:lang="eu">«Booth» kamera aplikazioa</caption>
       <caption xml:lang="fi">Booth-kamerasovellus</caption>
