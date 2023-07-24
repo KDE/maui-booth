@@ -223,7 +223,7 @@ msgstr "앱 플러그인과 행동을 설정합니다."
 #: src/widgets/views/SettingsDialog.qml:18
 #, kde-format
 msgid "Thumbnails"
-msgstr "축소판"
+msgstr "섬네일"
 
 #: src/widgets/views/SettingsDialog.qml:19
 #, kde-format
@@ -278,7 +278,7 @@ msgstr "모눈 크기"
 #: src/widgets/views/SettingsDialog.qml:94
 #, kde-format
 msgid "Thumbnails size in the grid view"
-msgstr "모눈 보기에서 축소판 크기"
+msgstr "모눈 보기에서 섬네일 크기"
 
 #: src/widgets/views/SettingsDialog.qml:119
 #, kde-format
