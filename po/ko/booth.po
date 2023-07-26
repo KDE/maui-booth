@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the maui-booth package.
-# Shinjo Park <kde@peremen.name>, 2021, 2022.
+# Shinjo Park <kde@peremen.name>, 2021, 2022, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: maui-booth\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-05-09 00:46+0000\n"
-"PO-Revision-Date: 2022-07-13 12:18+0200\n"
+"PO-Revision-Date: 2023-07-26 00:26+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #: src/main.cpp:48
 #, kde-format
@@ -43,25 +43,24 @@ msgid "Developer"
 msgstr "개발자"
 
 #: src/main.qml:89
-#, fuzzy, kde-format
-#| msgid "Dark Mode"
+#, kde-format
 msgid "Mode"
-msgstr "어두운 모드"
+msgstr "모드"
 
 #: src/main.qml:102 src/main.qml:234
 #, kde-format
 msgid "Manual"
-msgstr ""
+msgstr "수동"
 
 #: src/main.qml:103
 #, kde-format
 msgid "Hyperfocal"
-msgstr ""
+msgstr "하이퍼포컬"
 
 #: src/main.qml:104
 #, kde-format
 msgid "Infinity"
-msgstr ""
+msgstr "무한"
 
 #: src/main.qml:105 src/main.qml:133
 #, kde-format
@@ -71,42 +70,42 @@ msgstr "자동"
 #: src/main.qml:106
 #, kde-format
 msgid "Continuous"
-msgstr ""
+msgstr "연속적"
 
 #: src/main.qml:107
 #, kde-format
 msgid "Macro"
-msgstr ""
+msgstr "접사"
 
 #: src/main.qml:121
 #, kde-format
 msgid "Point"
-msgstr ""
+msgstr "포인트"
 
 #: src/main.qml:134
 #, kde-format
 msgid "Center"
-msgstr ""
+msgstr "가운데"
 
 #: src/main.qml:135
 #, kde-format
 msgid "Face Detection"
-msgstr ""
+msgstr "얼굴 감지"
 
 #: src/main.qml:136
 #, kde-format
 msgid "Custom"
-msgstr ""
+msgstr "사용자 정의"
 
 #: src/main.qml:178
 #, kde-format
 msgid "Read QR"
-msgstr ""
+msgstr "QR 읽기"
 
 #: src/main.qml:187
 #, kde-format
 msgid "Resolutions"
-msgstr ""
+msgstr "해상도"
 
 #: src/main.qml:214
 #, kde-format
@@ -131,48 +130,47 @@ msgstr "정보"
 #: src/main.qml:393
 #, kde-format
 msgid "Aperture"
-msgstr ""
+msgstr "조리개 구경"
 
 #: src/main.qml:398
 #, kde-format
 msgid "ISO"
-msgstr ""
+msgstr "ISO"
 
 #: src/main.qml:403
 #, kde-format
 msgid "Shutter"
-msgstr ""
+msgstr "셔터"
 
 #: src/main.qml:408
 #, kde-format
 msgid "Modes"
-msgstr ""
+msgstr "모드"
 
 #: src/main.qml:413
 #, kde-format
 msgid "Brightness"
-msgstr ""
+msgstr "밝기"
 
 #: src/main.qml:418
 #, kde-format
 msgid "White Balance"
-msgstr ""
+msgstr "화이트 밸런스"
 
 #: src/main.qml:424
 #, kde-format
 msgid "Contrast"
-msgstr ""
+msgstr "명암"
 
 #: src/main.qml:429
-#, fuzzy, kde-format
-#| msgid "Navigation"
+#, kde-format
 msgid "Saturation"
-msgstr "탐색"
+msgstr "채도"
 
 #: src/main.qml:434
 #, kde-format
 msgid "Filters"
-msgstr ""
+msgstr "필터"
 
 #: src/widgets/PhotoCaptureControls.qml:122
 #: src/widgets/VideoCaptureControls.qml:95
