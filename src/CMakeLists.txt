@@ -14,14 +14,12 @@ if(ANDROID)
         SHARED
         main.cpp
         assets/assets.qrc
-        ${booth_QML_QRC}
-        )
+        ${booth_QML_QRC})
 else()
     add_executable(${PROJECT_NAME}
         main.cpp
         assets/assets.qrc
-        ${booth_QML_QRC}
-        )
+        ${booth_QML_QRC})
 endif()
 
 if (ANDROID)
@@ -31,13 +29,12 @@ else()
 endif()
 
 target_link_libraries(${PROJECT_NAME}
-    MauiKit
+    MauiKit3
     Qt5::Quick
     Qt5::Qml
     Qt5::Multimedia
     KF5::I18n
-    KF5::CoreAddons
-    )
+    KF5::CoreAddons)
 
 if(UNIX AND NOT APPLE AND NOT ANDROID)
     install(TARGETS ${PROJECT_NAME} ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
