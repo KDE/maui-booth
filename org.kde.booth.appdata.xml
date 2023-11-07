@@ -30,6 +30,7 @@
   <name xml:lang="sv">Booth</name>
   <name xml:lang="tr">Kabin</name>
   <name xml:lang="uk">Booth</name>
+  <name xml:lang="x-test">xxBoothxx</name>
   <name xml:lang="zh-CN">Booth</name>
   <name xml:lang="zh-TW">Booth</name>
   <summary>Take pictures and videos</summary>
@@ -58,6 +59,7 @@
   <summary xml:lang="sv">Ta bilder och videor</summary>
   <summary xml:lang="tr">Resimler ve videolar çekin</summary>
   <summary xml:lang="uk">Створення зображень та відео</summary>
+  <summary xml:lang="x-test">xxTake pictures and videosxx</summary>
   <summary xml:lang="zh-CN">拍摄照片和视频</summary>
   <summary xml:lang="zh-TW">拍照、錄影</summary>
   <description>
@@ -86,6 +88,7 @@
     <p xml:lang="sv">Booth är ett konvergent kameraprogram</p>
     <p xml:lang="tr">Kabin, yakınsak bir kamera uygulamasıdır.</p>
     <p xml:lang="uk">Booth — універсальна програма для роботи з камерою.</p>
+    <p xml:lang="x-test">xxBooth is a convergent camera app.xx</p>
     <p xml:lang="zh-CN">Booth 是一款融合支持桌面和手机环境的相机应用。</p>
     <p xml:lang="zh-TW">Booth 是一個響應式的相機應用程式。</p>
   </description>
@@ -120,6 +123,7 @@
       <caption xml:lang="sv">Booth kameraprogram</caption>
       <caption xml:lang="tr">Kabin kamera uygulaması</caption>
       <caption xml:lang="uk">Програма для роботи з камерою Booth</caption>
+      <caption xml:lang="x-test">xxBooth camera appxx</caption>
       <caption xml:lang="zh-CN">Booth 相机应用</caption>
       <caption xml:lang="zh-TW">Booth 相機應用程式</caption>
       <image type="source" width="1048" height="631">
