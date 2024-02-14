@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maui-booth\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:28+0000\n"
+"POT-Creation-Date: 2024-02-14 01:39+0000\n"
 "PO-Revision-Date: 2023-07-26 00:26+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -17,27 +17,12 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 22.12.3\n"
 
-#: src/main.cpp:48
-#, kde-format
-msgid "Booth"
-msgstr "Booth"
-
-#: src/main.cpp:48
+#: src/main.cpp:50
 #, kde-format
 msgid "Camera app to take pictures and record videos."
 msgstr "사진을 찍거나 동영상을 녹화할 수 있는 카메라 앱입니다."
 
-#: src/main.cpp:48
-#, kde-format
-msgid "© 2020 - %1 Maui Development Team"
-msgstr "© 2020 - %1 Maui Development Team"
-
-#: src/main.cpp:50
-#, kde-format
-msgid "Camilo Higuita"
-msgstr "Camilo Higuita"
-
-#: src/main.cpp:50
+#: src/main.cpp:55
 #, kde-format
 msgid "Developer"
 msgstr "개발자"
@@ -312,6 +297,15 @@ msgstr "제약된 공간에서도 사이드바 표시"
 #, kde-format
 msgid "Dark Mode"
 msgstr "어두운 모드"
+
+#~ msgid "Booth"
+#~ msgstr "Booth"
+
+#~ msgid "© 2020 - %1 Maui Development Team"
+#~ msgstr "© 2020 - %1 Maui Development Team"
+
+#~ msgid "Camilo Higuita"
+#~ msgstr "Camilo Higuita"
 
 #~ msgid "Roll"
 #~ msgstr "카메라 롤"

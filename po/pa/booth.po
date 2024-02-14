@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maui-booth\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:28+0000\n"
+"POT-Creation-Date: 2024-02-14 01:39+0000\n"
 "PO-Revision-Date: 2022-06-11 09:05-0700\n"
 "Last-Translator: A S Alam <aalam@satluj.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -17,27 +17,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 21.12.2\n"
 
-#: src/main.cpp:48
-#, kde-format
-msgid "Booth"
-msgstr ""
-
-#: src/main.cpp:48
+#: src/main.cpp:50
 #, kde-format
 msgid "Camera app to take pictures and record videos."
 msgstr ""
 
-#: src/main.cpp:48
-#, fuzzy, kde-format
-msgid "© 2020 - %1 Maui Development Team"
-msgstr "© 2019-%1 Maui Development Team"
-
-#: src/main.cpp:50
-#, fuzzy, kde-format
-msgid "Camilo Higuita"
-msgstr "Camilo Higuita"
-
-#: src/main.cpp:50
+#: src/main.cpp:55
 #, kde-format
 msgid "Developer"
 msgstr "ਡਿਵੈਲਪਰ"
@@ -314,6 +299,14 @@ msgstr ""
 #, kde-format
 msgid "Dark Mode"
 msgstr "ਗੂੜ੍ਹਾ ਢੰਗ"
+
+#, fuzzy
+#~ msgid "© 2020 - %1 Maui Development Team"
+#~ msgstr "© 2019-%1 Maui Development Team"
+
+#, fuzzy
+#~ msgid "Camilo Higuita"
+#~ msgstr "Camilo Higuita"
 
 #~ msgid "Roll"
 #~ msgstr "ਰੋਲ"

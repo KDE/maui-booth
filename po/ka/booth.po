@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maui-booth\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:28+0000\n"
+"POT-Creation-Date: 2024-02-14 01:39+0000\n"
 "PO-Revision-Date: 2022-11-25 23:19+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -18,27 +18,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.2\n"
 
-#: src/main.cpp:48
-#, kde-format
-msgid "Booth"
-msgstr "Booth"
-
-#: src/main.cpp:48
+#: src/main.cpp:50
 #, kde-format
 msgid "Camera app to take pictures and record videos."
 msgstr "კამერის აპი სურათების გადასაღებად და ვიდეოების ჩასაწერად."
 
-#: src/main.cpp:48
-#, kde-format
-msgid "© 2020 - %1 Maui Development Team"
-msgstr "© 2020-%1 Maui -ის პროგრამისტების გუნდი"
-
-#: src/main.cpp:50
-#, kde-format
-msgid "Camilo Higuita"
-msgstr "კამილო ჰიგუიტა"
-
-#: src/main.cpp:50
+#: src/main.cpp:55
 #, kde-format
 msgid "Developer"
 msgstr "პროგრამისტი"
@@ -313,3 +298,12 @@ msgstr "გვერდითი პანელის შენარჩუნ�
 #, kde-format
 msgid "Dark Mode"
 msgstr "მუქი რეჟიმი"
+
+#~ msgid "Booth"
+#~ msgstr "Booth"
+
+#~ msgid "© 2020 - %1 Maui Development Team"
+#~ msgstr "© 2020-%1 Maui -ის პროგრამისტების გუნდი"
+
+#~ msgid "Camilo Higuita"
+#~ msgstr "კამილო ჰიგუიტა"

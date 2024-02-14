@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maui-booth\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:28+0000\n"
+"POT-Creation-Date: 2024-02-14 01:39+0000\n"
 "PO-Revision-Date: 2022-09-24 16:05+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -17,27 +17,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 20.08.1\n"
 
-#: src/main.cpp:48
-#, kde-format
-msgid "Booth"
-msgstr "Booth"
-
-#: src/main.cpp:48
+#: src/main.cpp:50
 #, kde-format
 msgid "Camera app to take pictures and record videos."
 msgstr "Kameraprogram för att ta bilder och spela in videor."
 
-#: src/main.cpp:48
-#, kde-format
-msgid "© 2020 - %1 Maui Development Team"
-msgstr "© 2020 - %1 Maui utvecklingsgrupp"
-
-#: src/main.cpp:50
-#, kde-format
-msgid "Camilo Higuita"
-msgstr "Camilo Higuita"
-
-#: src/main.cpp:50
+#: src/main.cpp:55
 #, kde-format
 msgid "Developer"
 msgstr "Utvecklare"
@@ -312,6 +297,15 @@ msgstr "Behåll sidoraden på begränsade utrymmen"
 #, kde-format
 msgid "Dark Mode"
 msgstr "Mörkt läge"
+
+#~ msgid "Booth"
+#~ msgstr "Booth"
+
+#~ msgid "© 2020 - %1 Maui Development Team"
+#~ msgstr "© 2020 - %1 Maui utvecklingsgrupp"
+
+#~ msgid "Camilo Higuita"
+#~ msgstr "Camilo Higuita"
 
 #~ msgid "Roll"
 #~ msgstr "Rulla"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maui-booth\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:28+0000\n"
+"POT-Creation-Date: 2024-02-14 01:39+0000\n"
 "PO-Revision-Date: 2023-03-05 08:14+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -18,27 +18,12 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 22.12.2\n"
 
-#: src/main.cpp:48
-#, kde-format
-msgid "Booth"
-msgstr "Budka"
-
-#: src/main.cpp:48
+#: src/main.cpp:50
 #, kde-format
 msgid "Camera app to take pictures and record videos."
 msgstr "Program aparatu do wykonywania zdjęć i nagrywania filmów."
 
-#: src/main.cpp:48
-#, kde-format
-msgid "© 2020 - %1 Maui Development Team"
-msgstr "© 2020 - %1 Zespół programistów Maui"
-
-#: src/main.cpp:50
-#, kde-format
-msgid "Camilo Higuita"
-msgstr "Camilo Higuita"
-
-#: src/main.cpp:50
+#: src/main.cpp:55
 #, kde-format
 msgid "Developer"
 msgstr "Programista"
@@ -313,6 +298,15 @@ msgstr "Trzymaj pasek boczny w ograniczonej przestrzeni"
 #, kde-format
 msgid "Dark Mode"
 msgstr "Tryb ciemny"
+
+#~ msgid "Booth"
+#~ msgstr "Budka"
+
+#~ msgid "© 2020 - %1 Maui Development Team"
+#~ msgstr "© 2020 - %1 Zespół programistów Maui"
+
+#~ msgid "Camilo Higuita"
+#~ msgstr "Camilo Higuita"
 
 #~ msgid "Roll"
 #~ msgstr "Przechyl"

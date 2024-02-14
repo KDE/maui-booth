@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maui-booth\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:28+0000\n"
+"POT-Creation-Date: 2024-02-14 01:39+0000\n"
 "PO-Revision-Date: 2021-09-15 21:18+0630\n"
 "Last-Translator: \n"
 "Language-Team: Burmese <kde-i18n-doc@kde.org>\n"
@@ -18,29 +18,13 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 2.2.1\n"
 
-#: src/main.cpp:48
-#, kde-format
-msgid "Booth"
-msgstr "ဘု"
-
-#: src/main.cpp:48
+#: src/main.cpp:50
 #, fuzzy, kde-format
 #| msgid "Booth is a convergent camera app to take pictures and record videos."
 msgid "Camera app to take pictures and record videos."
 msgstr "ဘုသည် ဓါတ်ပုံရိုက်ရန် နှင့် ဗီဒီယိုမှတ်တမ်းတင်ရန် အတွက် ကင်မရာအပ်တစ်ခု ဖြစ်သည်။"
 
-#: src/main.cpp:48
-#, fuzzy, kde-format
-#| msgid "© 2020 Nitrux Development Team"
-msgid "© 2020 - %1 Maui Development Team"
-msgstr "© ၂၀၂၀ နစ်ထရက်တိုးတက်ရေးအဖွဲ့"
-
-#: src/main.cpp:50
-#, kde-format
-msgid "Camilo Higuita"
-msgstr "ခမီလိုဟီဂီတာ"
-
-#: src/main.cpp:50
+#: src/main.cpp:55
 #, kde-format
 msgid "Developer"
 msgstr "ပရိုဂရမ်မာ"
@@ -317,6 +301,17 @@ msgstr "ဘေးတန်းကို နေရာအကန့်အသတ်�
 #, kde-format
 msgid "Dark Mode"
 msgstr "အမှောင်ထုံးနည်း"
+
+#~ msgid "Booth"
+#~ msgstr "ဘု"
+
+#, fuzzy
+#~| msgid "© 2020 Nitrux Development Team"
+#~ msgid "© 2020 - %1 Maui Development Team"
+#~ msgstr "© ၂၀၂၀ နစ်ထရက်တိုးတက်ရေးအဖွဲ့"
+
+#~ msgid "Camilo Higuita"
+#~ msgstr "ခမီလိုဟီဂီတာ"
 
 #~ msgid "Roll"
 #~ msgstr "ဓါတ်ပုံများ"
