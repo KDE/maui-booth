@@ -298,12 +298,3 @@ msgstr ""
 #, kde-format
 msgid "Dark Mode"
 msgstr "Tmavý režim"
-
-#~ msgid "Booth"
-#~ msgstr "Booth"
-
-#~ msgid "© 2020 - %1 Maui Development Team"
-#~ msgstr "© 2020 - %1 Vývojový tým Maui"
-
-#~ msgid "Camilo Higuita"
-#~ msgstr "Camilo Higuita"
