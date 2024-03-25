@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maui-booth\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-14 01:39+0000\n"
-"PO-Revision-Date: 2024-02-26 21:30+0100\n"
+"PO-Revision-Date: 2024-03-24 10:34+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: Esperanto <kde-i18n-eo.org>\n"
 "Language: eo\n"
@@ -21,7 +21,7 @@ msgstr ""
 #: src/main.cpp:50
 #, kde-format
 msgid "Camera app to take pictures and record videos."
-msgstr ""
+msgstr "Fotila aplikaĵo por foti kaj registri filmetojn."
 
 #: src/main.cpp:55
 #, kde-format
@@ -41,12 +41,12 @@ msgstr "Manuma"
 #: src/main.qml:103
 #, kde-format
 msgid "Hyperfocal"
-msgstr ""
+msgstr "Hiperfokusa"
 
 #: src/main.qml:104
 #, kde-format
 msgid "Infinity"
-msgstr ""
+msgstr "Senfineco"
 
 #: src/main.qml:105 src/main.qml:133
 #, kde-format
@@ -86,12 +86,12 @@ msgstr "Propra"
 #: src/main.qml:178
 #, kde-format
 msgid "Read QR"
-msgstr ""
+msgstr "Legi QR"
 
 #: src/main.qml:187
 #, kde-format
 msgid "Resolutions"
-msgstr ""
+msgstr "Rezolucioj"
 
 #: src/main.qml:214
 #, kde-format
@@ -172,7 +172,7 @@ msgstr "Halti"
 #: src/widgets/VideoCaptureControls.qml:118
 #, kde-format
 msgid "Switch to Photo"
-msgstr ""
+msgstr "Ŝanĝu al Foto"
 
 #: src/widgets/VideoCaptureControls.qml:124
 #, kde-format
@@ -187,7 +187,7 @@ msgstr "Malfermi en nova langeto"
 #: src/widgets/views/Browser.qml:125 src/widgets/views/PlacesSideBar.qml:135
 #, kde-format
 msgid "Open in split view"
-msgstr ""
+msgstr "Malfermi en dividita vido"
 
 #: src/widgets/views/PlacesSideBar.qml:144
 #, kde-format
@@ -202,7 +202,7 @@ msgstr "Navigado"
 #: src/widgets/views/SettingsDialog.qml:14
 #, kde-format
 msgid "Configure the app plugins and behavior."
-msgstr ""
+msgstr "Agordi la aplikajn kromaĵojn kaj konduton."
 
 #: src/widgets/views/SettingsDialog.qml:18
 #, kde-format
@@ -212,7 +212,7 @@ msgstr "Miniaturoj"
 #: src/widgets/views/SettingsDialog.qml:19
 #, kde-format
 msgid "Show previews of images, videos and PDF files"
-msgstr ""
+msgstr "Montri antaŭrigardojn de bildoj, filmetoj kaj PDF-dosieroj"
 
 #: src/widgets/views/SettingsDialog.qml:33
 #, kde-format
@@ -222,17 +222,17 @@ msgstr "Kaŝitajn dosierojn"
 #: src/widgets/views/SettingsDialog.qml:34
 #, kde-format
 msgid "List hidden files"
-msgstr ""
+msgstr "Listo de kaŝitaj dosieroj"
 
 #: src/widgets/views/SettingsDialog.qml:48
 #, kde-format
 msgid "Single Click"
-msgstr ""
+msgstr "Ununura Klako"
 
 #: src/widgets/views/SettingsDialog.qml:49
 #, kde-format
 msgid "Open files with a single or double click"
-msgstr ""
+msgstr "Malfermi dosierojn per unu aŭ duobla klako"
 
 #: src/widgets/views/SettingsDialog.qml:67
 #, kde-format
@@ -242,7 +242,7 @@ msgstr "Konservi Seancon"
 #: src/widgets/views/SettingsDialog.qml:68
 #, kde-format
 msgid "Save and restore tabs"
-msgstr ""
+msgstr "Konservi kaj restarigi langetojn"
 
 #: src/widgets/views/SettingsDialog.qml:87
 #, kde-format
@@ -252,17 +252,17 @@ msgstr "Interfaco"
 #: src/widgets/views/SettingsDialog.qml:88
 #, kde-format
 msgid "Configure the app UI."
-msgstr ""
+msgstr "Agordu la app UI."
 
 #: src/widgets/views/SettingsDialog.qml:93
 #, kde-format
 msgid "Grid Size"
-msgstr ""
+msgstr "Krado Grandeco"
 
 #: src/widgets/views/SettingsDialog.qml:94
 #, kde-format
 msgid "Thumbnails size in the grid view"
-msgstr ""
+msgstr "Bildetoj grandeco en la kradvido"
 
 #: src/widgets/views/SettingsDialog.qml:119
 #, kde-format
@@ -282,17 +282,17 @@ msgstr "X"
 #: src/widgets/views/SettingsDialog.qml:137
 #, kde-format
 msgid "XL"
-msgstr ""
+msgstr "XL"
 
 #: src/widgets/views/SettingsDialog.qml:145
 #, kde-format
 msgid "Sidebar always visible"
-msgstr ""
+msgstr "Flankbreto ĉiam videbla"
 
 #: src/widgets/views/SettingsDialog.qml:146
 #, kde-format
 msgid "Keep sidebar on constrained spaces"
-msgstr ""
+msgstr "Konservi flankbreton sur limigitaj spacoj"
 
 #: src/widgets/views/SettingsDialog.qml:182
 #, kde-format
