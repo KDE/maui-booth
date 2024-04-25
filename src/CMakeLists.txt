@@ -3,11 +3,9 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-if(QUICK_COMPILER)
-    qtquick_compiler_add_resources(booth_QML_QRC qml.qrc)
-else()
-    qt5_add_resources(booth_QML_QRC qml.qrc)
-endif()
+remove_definitions(-DQT_NO_CAST_FROM_ASCII -DQT_STRICT_ITERATORS -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_URL_CAST_FROM_STRING)
+
+qt_add_resources(booth_QML_QRC qml.qrc)
 
 if(ANDROID)
     add_library(${PROJECT_NAME}
@@ -23,18 +21,18 @@ else()
 endif()
 
 if (ANDROID)
-    target_link_libraries(${PROJECT_NAME} Qt5::AndroidExtras Qt5::QuickControls2)
+    target_link_libraries(${PROJECT_NAME} Qt6::AndroidExtras Qt6::QuickControls2)
 else()
-    target_link_libraries(${PROJECT_NAME} Qt5::Widgets)
+    target_link_libraries(${PROJECT_NAME} Qt6::Widgets)
 endif()
 
 target_link_libraries(${PROJECT_NAME}
-    MauiKit3
-    Qt5::Quick
-    Qt5::Qml
-    Qt5::Multimedia
-    KF5::I18n
-    KF5::CoreAddons)
+    MauiKit4
+    Qt6::Quick
+    Qt6::Qml
+    Qt6::Multimedia
+    KF6::I18n
+    KF6::CoreAddons)
 
 if(UNIX AND NOT APPLE AND NOT ANDROID)
     install(TARGETS ${PROJECT_NAME} ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

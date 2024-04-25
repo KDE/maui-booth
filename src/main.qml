@@ -3,14 +3,14 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-import QtQml 2.14
-import QtQuick 2.14
-import QtQuick.Controls 2.14
-import QtQuick.Layouts 1.3
-import QtMultimedia 5.14
-import Qt.labs.settings 1.0
+import QtQml
+import QtCore
+import QtQuick
+import QtQuick.Controls
+import QtQuick.Layouts
+import QtMultimedia
 
-import org.mauikit.controls 1.3 as Maui
+import org.mauikit.controls as Maui
 
 import "widgets"
 import "views"
@@ -40,7 +40,7 @@ Maui.ApplicationWindow
         floatingHeader: true
         autoHideHeader: true
 
-        showCSDControls: true
+        Maui.Controls.showCSD: true
 
         footBar.rightContent: Maui.ToolButtonMenu
         {

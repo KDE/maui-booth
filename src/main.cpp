@@ -19,9 +19,9 @@
 #include <MauiKit3/Core/mauimacos.h>
 #endif
 
-#include <KI18n/KLocalizedString>
+#include <KLocalizedString>
 
-#include <MauiKit3/Core/mauiapp.h>
+#include <MauiKit4/Core/mauiapp.h>
 
 #include "../booth_version.h"
 
@@ -29,9 +29,6 @@
 
 int Q_DECL_EXPORT main(int argc, char *argv[])
 {
-		QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-		QCoreApplication::setAttribute(Qt::AA_UseHighDpiPixmaps, true);
-
 #ifdef Q_OS_ANDROID
 		QGuiApplication app(argc, argv);
 		if (!MAUIAndroid::checkRunTimePermissions({"android.permission.WRITE_EXTERNAL_STORAGE"}))
