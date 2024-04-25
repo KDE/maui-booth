@@ -3,16 +3,16 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-import QtQml 2.14
-import QtQuick 2.14
-import QtQuick.Controls 2.15
-import QtMultimedia 5.15
+import QtQml
+import QtQuick
+import QtQuick.Controls
+import QtMultimedia
 
-import org.mauikit.controls 1.3 as Maui
+import org.mauikit.controls as Maui
 
-import org.mauikit.filebrowsing 1.3 as FB
+import org.mauikit.filebrowsing as FB
 
-import org.kde.prison.scanner 1.0 as Prison
+import org.kde.prison.scanner as Prison
 
 import "../widgets"
 
@@ -61,22 +61,6 @@ Pane
         }
     ]
 
-    Prison.VideoScanner
-    {
-        id: scanner
-        //         formats: Prison.Format.QRCode | Prison.Format.Aztec
-        onResultChanged: {
-            if (result.hasText) {
-                console.log(result.text, result.format);
-            } else if (result.hasBinaryData) {
-                console.log("<binary content>", result.format);
-            } else {
-                console.log("no barcode found");
-            }
-        }
-    }
-
-
     contentItem: PinchArea
     {
         pinch.minimumScale: 0
@@ -90,73 +74,73 @@ Pane
             pinch.accepted = true
         }
 
+        MediaDevices {
+            id: mediaDevices
+        }
+
+        CaptureSession
+        {
+            imageCapture: ImageCapture
+            {
+                onImageCaptured:
+                {
+                    _previewImage.source = preview
+                    //                        stillControls.previewAvailable = true
+                    //                        cameraPage.state = "PhotoPreview"
+                }
+            }
+
+
+            camera: Camera
+            {
+                id: _camera
+                        cameraDevice: mediaDevices.defaultVideoInput
+                focusMode: Camera.FocusModeAutoNear
+                //                    flash.mode: Camera.FlashRedEyeReduction
+                //                    imageProcessing.whiteBalanceMode: CameraImageProcessing.WhiteBalanceFlash
+
+                exposureCompensation: -1.0
+                exposureMode: Camera.ExposurePortrait
+
+                //                            focusPointMode: Camera.FocusPointCustom
+                customFocusPoint: Qt.point(0.2, 0.2) // Focus relative to top-left corner
+
+            }
+
+            videoOutput: viewfinder
+        }
+
         VideoOutput
         {
             id: viewfinder
             visible: cameraPage.state == "PhotoCapture" || cameraPage.state == "VideoCapture"
             anchors.fill: parent
 
-            autoOrientation: true
+            // autoOrientation: true
 
-            filters: settings.readQR ? [scanner] : []
+            // Repeater
+            // {
+            //     model: _camera.focus.focusZones
 
-            source: Camera
-            {
-                id: _camera
-                captureMode: Camera.CaptureStillImage
+            //     Rectangle
+            //     {
+            //         border
+            //         {
+            //             width: 2
+            //             color: status == Camera.FocusAreaFocused ? "green" : "white"
+            //         }
 
-                //                    flash.mode: Camera.FlashRedEyeReduction
-                //                    imageProcessing.whiteBalanceMode: CameraImageProcessing.WhiteBalanceFlash
+            //         color: "transparent"
 
-                exposure {
-                    exposureCompensation: -1.0
-                    exposureMode: Camera.ExposurePortrait
-                }
+            //         // Map from the relative, normalized frame coordinates
+            //         property variant mappedRect: viewfinder.mapNormalizedRectToItem(area);
 
-                focus {
-                    focusMode: Camera.FocusPointAuto
-                    //                            focusPointMode: Camera.FocusPointCustom
-                    customFocusPoint: Qt.point(0.2, 0.2) // Focus relative to top-left corner
-                }
-
-                imageCapture {
-                    onImageCaptured:
-                    {
-                        _previewImage.source = preview
-                        //                        stillControls.previewAvailable = true
-                        //                        cameraPage.state = "PhotoPreview"
-                    }
-                }
-
-                videoRecorder {
-                    resolution: "640x480"
-                    frameRate: 30
-                }
-            }
-
-            Repeater
-            {
-                model: _camera.focus.focusZones
-
-                Rectangle
-                {
-                    border
-                    {
-                        width: 2
-                        color: status == Camera.FocusAreaFocused ? "green" : "white"
-                    }
-
-                    color: "transparent"
-
-                    // Map from the relative, normalized frame coordinates
-                    property variant mappedRect: viewfinder.mapNormalizedRectToItem(area);
-
-                    x: mappedRect.x
-                    y: mappedRect.y
-                    width: mappedRect.width
-                    height: mappedRect.height
-                }
-            }
+            //         x: mappedRect.x
+            //         y: mappedRect.y
+            //         width: mappedRect.width
+            //         height: mappedRect.height
+            //     }
+            // }
 
 
             Maui.Chip
@@ -188,6 +172,27 @@ Pane
                 }
             }
         }
+
+        Prison.VideoScanner
+        {
+            id: scanner
+            videoSink: viewFinder.videoSink
+            // enabled: settings.readQR
+            //         formats: Prison.Format.QRCode | Prison.Format.Aztec
+            formats: Prison.Format.QRCode | Prison.Format.Aztec
+            onResultChanged: (result) =>
+                             {
+                                 if (result.hasText) {
+                                     console.log(result.text, result.format);
+                                 } else if (result.hasBinaryData) {
+                                     console.log("<binary content>", result.format);
+                                 } else {
+                                     console.log("no barcode found");
+                                 }
+                             }
+        }
+
+
 
         Item
         {
