@@ -198,7 +198,7 @@ msgstr "Elimina"
 #: src/widgets/views/SettingsDialog.qml:13
 #, kde-format
 msgid "Navigation"
-msgstr "Navegació"
+msgstr "Navegueu"
 
 #: src/widgets/views/SettingsDialog.qml:14
 #, kde-format
@@ -299,12 +299,3 @@ msgstr "Manté la barra lateral en espais restringits"
 #, kde-format
 msgid "Dark Mode"
 msgstr "Mode fosc"
-
-#~ msgid "Booth"
-#~ msgstr "Booth"
-
-#~ msgid "© 2020 - %1 Maui Development Team"
-#~ msgstr "© 2020 - %1 L'equip de desenvolupament de Maui"
-
-#~ msgid "Camilo Higuita"
-#~ msgstr "Camilo Higuita"
