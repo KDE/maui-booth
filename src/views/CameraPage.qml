@@ -21,7 +21,9 @@ Pane
     id: cameraPage
     padding: 0
     property bool manualMode: false
-    property alias camera : _camera
+    readonly property alias camera : _camera
+    readonly property alias mediaDevices: _mediaDevices
+
     state: "PhotoCapture"
 
     background: Rectangle
@@ -34,7 +36,7 @@ Pane
             name: "PhotoCapture"
             StateChangeScript {
                 script: {
-                    camera.captureMode = Camera.CaptureStillImage
+                    // camera.captureMode = Camera.CaptureStillImage
                     camera.start()
                 }
             }
@@ -46,7 +48,7 @@ Pane
             name: "VideoCapture"
             StateChangeScript {
                 script: {
-                    camera.captureMode = Camera.CaptureVideo
+                    // camera.captureMode = Camera.CaptureVideo
                     camera.start()
                 }
             }
@@ -74,8 +76,9 @@ Pane
             pinch.accepted = true
         }
 
-        MediaDevices {
-            id: mediaDevices
+        MediaDevices
+        {
+            id: _mediaDevices
         }
 
         CaptureSession
@@ -113,7 +116,7 @@ Pane
         VideoOutput
         {
             id: viewfinder
-            visible: cameraPage.state == "PhotoCapture" || cameraPage.state == "VideoCapture"
+            // visible: cameraPage.state == "PhotoCapture" || cameraPage.state == "VideoCapture"
             anchors.fill: parent
 
             // autoOrientation: true
@@ -176,7 +179,7 @@ Pane
         Prison.VideoScanner
         {
             id: scanner
-            videoSink: viewFinder.videoSink
+            // videoSink: viewFinder.videoSink
             // enabled: settings.readQR
             //         formats: Prison.Format.QRCode | Prison.Format.Aztec
             formats: Prison.Format.QRCode | Prison.Format.Aztec

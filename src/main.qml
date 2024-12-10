@@ -48,20 +48,20 @@ Maui.ApplicationWindow
 
             Repeater
             {
-                model: QtMultimedia.availableCameras
+                model: _cameraPage.mediaDevices.videoInputs
                 delegate: MenuItem
                 {
                     autoExclusive: true
-                    checked: modelData.deviceId === _cameraPage.camera.deviceId
+                    checked: modelData.id === _cameraPage.camera.cameraDevice.id
                     action: Action
                     {
                         checkable: true
-                        text: modelData.displayName
+                        text: modelData.description
                     }
 
                     onTriggered:
                     {
-                        _cameraPage.camera.deviceId = modelData.deviceId
+                        _cameraPage.cameraDevice = modelData
                     }
                 }
             }
@@ -90,7 +90,7 @@ Maui.ApplicationWindow
 
                     Repeater
                     {
-                        model:_cameraPage.camera.focus.supportedFocusModes
+                        model:_cameraPage.mediaDevices.videoInputs
                         delegate: MenuItem
                         {
                             checkable: true
@@ -453,21 +453,4 @@ Maui.ApplicationWindow
             _cameraPage.capture()
         }
     }
-
-
-    Component.onCompleted:
-    {
-        setAndroidStatusBarColor()
-    }
-
-    function setAndroidStatusBarColor()
-    {
-        if(Maui.Handy.isAndroid)
-        {
-            Maui.Android.statusbarColor( Maui.Theme.backgroundColor, false)
-            Maui.Android.navBarColor( Maui.Theme.backgroundColor, false)
-        }
-    }
-
-
 }

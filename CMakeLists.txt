@@ -23,9 +23,7 @@ set(REQUIRED_QT_VERSION 6.5.2)
 set(REQUIRED_KF_VERSION 5.240.0)
 
 if(ANDROID)
-    set(ANDROID_PACKAGE_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/android_files)
     set(ANDROID_ABIS "armeabi-v7a")
-    configure_file(${CMAKE_CURRENT_SOURCE_DIR}/android_files/version.gradle.in ${CMAKE_BINARY_DIR}/version.gradle)
 endif()
 
 find_package(ECM ${REQUIRED_KF_VERSION} REQUIRED NO_MODULE)
@@ -47,7 +45,7 @@ find_package(KF6 ${REQUIRED_KF_VERSION} REQUIRED COMPONENTS I18n CoreAddons)
 find_package(MauiKit4 REQUIRED)
 
 if(ANDROID)
-    find_package(Qt6 ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE COMPONENTS AndroidExtras QuickControls2)
+    find_package(Qt6 ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE COMPONENTS Sql QuickControls2)
 else()
     find_package(Qt6 ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE COMPONENTS Widgets)
 endif()
@@ -84,8 +82,10 @@ ki18n_install(po)
 
 if(UNIX AND NOT APPLE AND NOT ANDROID)
     install(FILES org.kde.booth.desktop DESTINATION ${KDE_INSTALL_APPDIR})
-     install(FILES org.kde.booth.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
+    install(FILES org.kde.booth.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 endif()
 
-
 feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
+
+qt_finalize_project()
+
