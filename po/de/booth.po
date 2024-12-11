@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: booth\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-14 01:39+0000\n"
+"POT-Creation-Date: 2024-12-11 01:48+0000\n"
 "PO-Revision-Date: 2023-03-12 17:09+0100\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 22.07.70\n"
 
-#: src/main.cpp:50
+#: src/main.cpp:56
 #, kde-format
 msgid "Camera app to take pictures and record videos."
 msgstr "Kamera-App, um Bilder und Videos aufzunehmen."
 
-#: src/main.cpp:55
+#: src/main.cpp:61
 #, kde-format
 msgid "Developer"
 msgstr "Entwickler"

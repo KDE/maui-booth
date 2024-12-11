@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maui-booth\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-14 01:39+0000\n"
+"POT-Creation-Date: 2024-12-11 01:48+0000\n"
 "PO-Revision-Date: 2022-06-11 09:05-0700\n"
 "Last-Translator: A S Alam <aalam@satluj.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 21.12.2\n"
 
-#: src/main.cpp:50
+#: src/main.cpp:56
 #, kde-format
 msgid "Camera app to take pictures and record videos."
 msgstr ""
 
-#: src/main.cpp:55
+#: src/main.cpp:61
 #, kde-format
 msgid "Developer"
 msgstr "ਡਿਵੈਲਪਰ"

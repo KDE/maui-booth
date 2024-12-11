@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maui-booth\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-14 01:39+0000\n"
+"POT-Creation-Date: 2024-12-11 01:48+0000\n"
 "PO-Revision-Date: 2022-08-22 08:02+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
 
-#: src/main.cpp:50
+#: src/main.cpp:56
 #, kde-format
 msgid "Camera app to take pictures and record videos."
 msgstr "Aplikacija kamere za zajem fotografij in snemanje videov."
 
-#: src/main.cpp:55
+#: src/main.cpp:61
 #, kde-format
 msgid "Developer"
 msgstr "Razvijalec"
