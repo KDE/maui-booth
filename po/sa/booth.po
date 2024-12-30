@@ -1,0 +1,298 @@
+# Sanskrit translations for maui-booth package.
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the maui-booth package.
+# Kali <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: maui-booth\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-12-11 01:48+0000\n"
+"PO-Revision-Date: 2024-12-29 16:05+0530\n"
+"Last-Translator: Kali <EMAIL@ADDRESS>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
+"Language: sa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/main.cpp:56
+#, kde-format
+msgid "Camera app to take pictures and record videos."
+msgstr "चित्राणि ग्रहीतुं विडियो रिकार्ड् कर्तुं च कैमरा एप्।"
+
+#: src/main.cpp:61
+#, kde-format
+msgid "Developer"
+msgstr "विकासकः"
+
+#: src/main.qml:89
+#, kde-format
+msgid "Mode"
+msgstr "मोड्"
+
+#: src/main.qml:102 src/main.qml:234
+#, kde-format
+msgid "Manual"
+msgstr "शास्त्र"
+
+#: src/main.qml:103
+#, kde-format
+msgid "Hyperfocal"
+msgstr "अतिकेन्द्रीय"
+
+#: src/main.qml:104
+#, kde-format
+msgid "Infinity"
+msgstr "अनंतं"
+
+#: src/main.qml:105 src/main.qml:133
+#, kde-format
+msgid "Auto"
+msgstr "ऑटो"
+
+#: src/main.qml:106
+#, kde-format
+msgid "Continuous"
+msgstr "निरन्तरम्"
+
+#: src/main.qml:107
+#, kde-format
+msgid "Macro"
+msgstr "मैक्रो"
+
+#: src/main.qml:121
+#, kde-format
+msgid "Point"
+msgstr "बिन्दु"
+
+#: src/main.qml:134
+#, kde-format
+msgid "Center"
+msgstr "केंद्र"
+
+#: src/main.qml:135
+#, kde-format
+msgid "Face Detection"
+msgstr "मुखपरिचयः"
+
+#: src/main.qml:136
+#, kde-format
+msgid "Custom"
+msgstr "आचारः"
+
+#: src/main.qml:178
+#, kde-format
+msgid "Read QR"
+msgstr "पढ़ें क्यूआर"
+
+#: src/main.qml:187
+#, kde-format
+msgid "Resolutions"
+msgstr "संकल्पाः"
+
+#: src/main.qml:214
+#, kde-format
+msgid "Photo"
+msgstr "चित्रं"
+
+#: src/main.qml:225
+#, kde-format
+msgid "Video"
+msgstr "विडिओ"
+
+#: src/main.qml:279
+#, kde-format
+msgid "Settings"
+msgstr "सेटिंग्स्"
+
+#: src/main.qml:286
+#, kde-format
+msgid "About"
+msgstr "विषये"
+
+#: src/main.qml:393
+#, kde-format
+msgid "Aperture"
+msgstr "रन्ध्रम्"
+
+#: src/main.qml:398
+#, kde-format
+msgid "ISO"
+msgstr "ISO"
+
+#: src/main.qml:403
+#, kde-format
+msgid "Shutter"
+msgstr "शटर"
+
+#: src/main.qml:408
+#, kde-format
+msgid "Modes"
+msgstr "गुणाः"
+
+#: src/main.qml:413
+#, kde-format
+msgid "Brightness"
+msgstr "कान्तिः"
+
+#: src/main.qml:418
+#, kde-format
+msgid "White Balance"
+msgstr "श्वेत संतुलन"
+
+#: src/main.qml:424
+#, kde-format
+msgid "Contrast"
+msgstr "विप्रकर्ष"
+
+#: src/main.qml:429
+#, kde-format
+msgid "Saturation"
+msgstr "संतृप्ति"
+
+#: src/main.qml:434
+#, kde-format
+msgid "Filters"
+msgstr "फ़िल्टर"
+
+#: src/widgets/PhotoCaptureControls.qml:122
+#: src/widgets/VideoCaptureControls.qml:95
+#, kde-format
+msgid "View"
+msgstr "दृश्यं"
+
+#: src/widgets/VideoCaptureControls.qml:89
+#, kde-format
+msgid "Stop"
+msgstr "विरमतु"
+
+#: src/widgets/VideoCaptureControls.qml:118
+#, kde-format
+msgid "Switch to Photo"
+msgstr "Photo इत्यत्र स्विच कुर्वन्तु"
+
+#: src/widgets/VideoCaptureControls.qml:124
+#, kde-format
+msgid "Quit"
+msgstr "परिजहातु"
+
+#: src/widgets/views/Browser.qml:117 src/widgets/views/PlacesSideBar.qml:127
+#, kde-format
+msgid "Open in new tab"
+msgstr "नूतन ट्याब् मध्ये उद्घाटयन्तु"
+
+#: src/widgets/views/Browser.qml:125 src/widgets/views/PlacesSideBar.qml:135
+#, kde-format
+msgid "Open in split view"
+msgstr "विभक्तदृश्ये उद्घाटयन्तु"
+
+#: src/widgets/views/PlacesSideBar.qml:144
+#, kde-format
+msgid "Remove"
+msgstr "अपाकरोति"
+
+#: src/widgets/views/SettingsDialog.qml:13
+#, kde-format
+msgid "Navigation"
+msgstr "नौकायानम्"
+
+#: src/widgets/views/SettingsDialog.qml:14
+#, kde-format
+msgid "Configure the app plugins and behavior."
+msgstr "एप् प्लगिन्स् व्यवहारं च विन्यस्यताम्।"
+
+#: src/widgets/views/SettingsDialog.qml:18
+#, kde-format
+msgid "Thumbnails"
+msgstr "लघुचित्रम्"
+
+#: src/widgets/views/SettingsDialog.qml:19
+#, kde-format
+msgid "Show previews of images, videos and PDF files"
+msgstr "चित्राणां, विडियोनां, PDF सञ्चिकानां च पूर्वावलोकनं दर्शयतु"
+
+#: src/widgets/views/SettingsDialog.qml:33
+#, kde-format
+msgid "Hidden Files"
+msgstr "गुप्तसञ्चिकाः"
+
+#: src/widgets/views/SettingsDialog.qml:34
+#, kde-format
+msgid "List hidden files"
+msgstr "गुप्तसञ्चिकाः सूचीबद्धाः कुर्वन्तु"
+
+#: src/widgets/views/SettingsDialog.qml:48
+#, kde-format
+msgid "Single Click"
+msgstr "एकं क्लिक् कुर्वन्तु"
+
+#: src/widgets/views/SettingsDialog.qml:49
+#, kde-format
+msgid "Open files with a single or double click"
+msgstr "एकेन वा द्विवारं वा क्लिक् कृत्वा सञ्चिकाः उद्घाटयन्तु"
+
+#: src/widgets/views/SettingsDialog.qml:67
+#, kde-format
+msgid "Save Session"
+msgstr "सत्रं रक्षतु"
+
+#: src/widgets/views/SettingsDialog.qml:68
+#, kde-format
+msgid "Save and restore tabs"
+msgstr "ट्याब्स् रक्षन्तु पुनर्स्थापयन्तु च"
+
+#: src/widgets/views/SettingsDialog.qml:87
+#, kde-format
+msgid "Interface"
+msgstr "अन्तरफलकम्"
+
+#: src/widgets/views/SettingsDialog.qml:88
+#, kde-format
+msgid "Configure the app UI."
+msgstr "एप् UI विन्यस्तं कुर्वन्तु।"
+
+#: src/widgets/views/SettingsDialog.qml:93
+#, kde-format
+msgid "Grid Size"
+msgstr "जाल आकार"
+
+#: src/widgets/views/SettingsDialog.qml:94
+#, kde-format
+msgid "Thumbnails size in the grid view"
+msgstr "जालदृश्ये लघुचित्रस्य आकारः"
+
+#: src/widgets/views/SettingsDialog.qml:119
+#, kde-format
+msgid "S"
+msgstr "स"
+
+#: src/widgets/views/SettingsDialog.qml:125
+#, kde-format
+msgid "M"
+msgstr "म"
+
+#: src/widgets/views/SettingsDialog.qml:131
+#, kde-format
+msgid "X"
+msgstr "X"
+
+#: src/widgets/views/SettingsDialog.qml:137
+#, kde-format
+msgid "XL"
+msgstr "XL"
+
+#: src/widgets/views/SettingsDialog.qml:145
+#, kde-format
+msgid "Sidebar always visible"
+msgstr "पार्श्वपट्टिका सर्वदा दृश्यते"
+
+#: src/widgets/views/SettingsDialog.qml:146
+#, kde-format
+msgid "Keep sidebar on constrained spaces"
+msgstr "बाध्यस्थानेषु पार्श्वपट्टिकां स्थापयन्तु"
+
+#: src/widgets/views/SettingsDialog.qml:182
+#, kde-format
+msgid "Dark Mode"
+msgstr "डार्क मोड"
