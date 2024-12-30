@@ -15,6 +15,7 @@
   <name xml:lang="fi">Booth</name>
   <name xml:lang="fr">Booth</name>
   <name xml:lang="gl">Booth</name>
+  <name xml:lang="he">תא</name>
   <name xml:lang="id">Booth</name>
   <name xml:lang="it">Booth</name>
   <name xml:lang="ka">Booth</name>
@@ -25,6 +26,7 @@
   <name xml:lang="pa">ਬੂਥ</name>
   <name xml:lang="pl">Booth</name>
   <name xml:lang="pt">Cabine</name>
+  <name xml:lang="sa">बूथ</name>
   <name xml:lang="sk">Booth</name>
   <name xml:lang="sl">Stojnica</name>
   <name xml:lang="sv">Booth</name>
@@ -44,6 +46,7 @@
   <summary xml:lang="fi">Kuvaa valokuvia ja videoita</summary>
   <summary xml:lang="fr">Prendre des images et des vidéos</summary>
   <summary xml:lang="gl">Saque fotos e grave vídeos.</summary>
+  <summary xml:lang="he">צילום תמונות וסרטונים</summary>
   <summary xml:lang="id">Ambil gambar dan video</summary>
   <summary xml:lang="it">Scatta fotografie e riprendi video</summary>
   <summary xml:lang="ka">გადაიღეთ სურათები და ვიდეოები</summary>
@@ -54,6 +57,7 @@
   <summary xml:lang="pa">ਤਸਵੀਰਾਂ ਤੇ ਵੀਡੀਓ ਬਣਾਓ</summary>
   <summary xml:lang="pl">Rób zdjęcia i nagrywaj filmy</summary>
   <summary xml:lang="pt">Tirar fotografias e vídeos</summary>
+  <summary xml:lang="sa">चित्राणि, विडियो च गृह्यताम्</summary>
   <summary xml:lang="sk">Tvorba fotiek a videa</summary>
   <summary xml:lang="sl">Posnemi fotografije in videe</summary>
   <summary xml:lang="sv">Ta bilder och videor</summary>
@@ -74,6 +78,7 @@
     <p xml:lang="fi">Booth on mukautuva kamerasovellus.</p>
     <p xml:lang="fr">Booth est une application de caméra convergente.</p>
     <p xml:lang="gl">Booth é unha aplicación de cámara converxente.</p>
+    <p xml:lang="he">תא הוא יישום מצלמה משולב.</p>
     <p xml:lang="id">Booth adalah sebuah aplikasi kamera yang terpusat.</p>
     <p xml:lang="it">Booth è un'app convergente per fotocamera.</p>
     <p xml:lang="ka">Booth კონვერგენტული კამერის აპია.</p>
@@ -83,6 +88,7 @@
     <p xml:lang="nn">Boorth er ein konvergent kameraapp.</p>
     <p xml:lang="pl">Booth jest programem do obsługi kamery.</p>
     <p xml:lang="pt">A Cabine é uma aplicação de câmara convergente.</p>
+    <p xml:lang="sa">बूथः एकः अभिसरणीयः कॅमेरा-एप् अस्ति ।</p>
     <p xml:lang="sk">Booth je konvergentná fotografická aplikácia</p>
     <p xml:lang="sl">Stojnica je konvergentna aplikacija kamere.</p>
     <p xml:lang="sv">Booth är ett konvergent kameraprogram</p>
@@ -108,6 +114,7 @@
       <caption xml:lang="fi">Booth-kamerasovellus</caption>
       <caption xml:lang="fr">Booth, une application de caméra</caption>
       <caption xml:lang="gl">Aplicación de cámara Booth.</caption>
+      <caption xml:lang="he">יישום תא צילום</caption>
       <caption xml:lang="id">Booth aplikasi kamera</caption>
       <caption xml:lang="it">App fotocamera Booth</caption>
       <caption xml:lang="ka">Booth კონვერგენტული კამერის აპი</caption>
@@ -118,6 +125,7 @@
       <caption xml:lang="pa">ਬੂਥ ਕੈਮਰਾ ਐਪ</caption>
       <caption xml:lang="pl">Aplikacja budki do robienia zdjęć</caption>
       <caption xml:lang="pt">Aplicação de câmara Cabine</caption>
+      <caption xml:lang="sa">बूथ कैमरा एप्लिकेशन</caption>
       <caption xml:lang="sk">Fotografická aplikácia Booth</caption>
       <caption xml:lang="sl">Stojnica aplikacija kamere</caption>
       <caption xml:lang="sv">Booth kameraprogram</caption>
