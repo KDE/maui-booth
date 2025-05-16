@@ -4,6 +4,7 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LGPL-3.0</project_license>
   <name>Booth</name>
+  <name xml:lang="ar">كشك</name>
   <name xml:lang="ca">Booth</name>
   <name xml:lang="ca-valencia">Booth</name>
   <name xml:lang="cs">Booth</name>
@@ -37,6 +38,7 @@
   <name xml:lang="zh-CN">Booth</name>
   <name xml:lang="zh-TW">Booth</name>
   <summary>Take pictures and videos</summary>
+  <summary xml:lang="ar">التقط الصور ومقاطع الفيديو</summary>
   <summary xml:lang="ca">Pren fotografies o vídeos</summary>
   <summary xml:lang="ca-valencia">Pren fotografies o vídeos</summary>
   <summary xml:lang="de">Bilder und Videos aufnehmen</summary>
@@ -70,6 +72,7 @@
   <summary xml:lang="zh-TW">拍照、錄影</summary>
   <description>
     <p>Booth is a convergent camera app.</p>
+    <p xml:lang="ar">كشك هو تطبيق كاميرا متكيف.</p>
     <p xml:lang="ca">Booth és una aplicació convergent de càmera.</p>
     <p xml:lang="ca-valencia">Booth és una aplicació convergent de càmera.</p>
     <p xml:lang="de">Booth ist eine konvergente Kamera-App.</p>
@@ -107,6 +110,7 @@
   <screenshots>
     <screenshot type="default">
       <caption>Booth camera app</caption>
+      <caption xml:lang="ar">تطبيق كاميرا كشك</caption>
       <caption xml:lang="ca">Aplicació de càmera Booth</caption>
       <caption xml:lang="ca-valencia">Aplicació de càmera Booth</caption>
       <caption xml:lang="de">Booth-Kamera-App</caption>
