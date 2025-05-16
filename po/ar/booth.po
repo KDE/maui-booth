@@ -1,0 +1,300 @@
+# Copyright (C) 2025 This file is copyright:
+# This file is distributed under the same license as the maui-booth package.
+# SPDX-FileCopyrightText: 2025 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: maui-booth\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-12-11 01:48+0000\n"
+"PO-Revision-Date: 2025-05-15 21:24+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: src/main.cpp:56
+#, kde-format
+msgid "Camera app to take pictures and record videos."
+msgstr "تطبيق الكاميرا لالتقاط الصور وتسجيل مقاطع الفيديو."
+
+#: src/main.cpp:61
+#, kde-format
+msgid "Developer"
+msgstr "المطوّر"
+
+#: src/main.qml:89
+#, kde-format
+msgid "Mode"
+msgstr "الوضع"
+
+#: src/main.qml:102 src/main.qml:234
+#, kde-format
+msgid "Manual"
+msgstr "يدويّ"
+
+#: src/main.qml:103
+#, kde-format
+msgid "Hyperfocal"
+msgstr "فرط البؤرة"
+
+#: src/main.qml:104
+#, kde-format
+msgid "Infinity"
+msgstr "مالانهاية"
+
+#: src/main.qml:105 src/main.qml:133
+#, kde-format
+msgid "Auto"
+msgstr "آليّ"
+
+#: src/main.qml:106
+#, kde-format
+msgid "Continuous"
+msgstr "متواصل"
+
+#: src/main.qml:107
+#, kde-format
+msgid "Macro"
+msgstr "تكبير"
+
+#: src/main.qml:121
+#, kde-format
+msgid "Point"
+msgstr "نقطة"
+
+#: src/main.qml:134
+#, kde-format
+msgid "Center"
+msgstr "وسط"
+
+#: src/main.qml:135
+#, kde-format
+msgid "Face Detection"
+msgstr "اكتشاف الوجوه"
+
+#: src/main.qml:136
+#, kde-format
+msgid "Custom"
+msgstr "مخصّص"
+
+#: src/main.qml:178
+#, kde-format
+msgid "Read QR"
+msgstr "قراءة رمز الاستجابة"
+
+#: src/main.qml:187
+#, kde-format
+msgid "Resolutions"
+msgstr "الدقة"
+
+#: src/main.qml:214
+#, kde-format
+msgid "Photo"
+msgstr "صورة"
+
+#: src/main.qml:225
+#, kde-format
+msgid "Video"
+msgstr "فيديو"
+
+#: src/main.qml:279
+#, kde-format
+msgid "Settings"
+msgstr "إعدادات"
+
+#: src/main.qml:286
+#, kde-format
+msgid "About"
+msgstr "عن"
+
+#: src/main.qml:393
+#, kde-format
+msgid "Aperture"
+msgstr "الحدقة"
+
+#: src/main.qml:398
+#, kde-format
+msgid "ISO"
+msgstr "آيزو"
+
+#: src/main.qml:403
+#, kde-format
+msgid "Shutter"
+msgstr "الغالق"
+
+#: src/main.qml:408
+#, kde-format
+msgid "Modes"
+msgstr "الأوضاع"
+
+#: src/main.qml:413
+#, kde-format
+msgid "Brightness"
+msgstr "السطوع"
+
+#: src/main.qml:418
+#, kde-format
+msgid "White Balance"
+msgstr "توازن الأبيض"
+
+#: src/main.qml:424
+#, kde-format
+msgid "Contrast"
+msgstr "التباين"
+
+#: src/main.qml:429
+#, kde-format
+msgid "Saturation"
+msgstr "التّشبّع"
+
+#: src/main.qml:434
+#, kde-format
+msgid "Filters"
+msgstr "المرشّحات"
+
+#: src/widgets/PhotoCaptureControls.qml:122
+#: src/widgets/VideoCaptureControls.qml:95
+#, kde-format
+msgid "View"
+msgstr "اعرض"
+
+#: src/widgets/VideoCaptureControls.qml:89
+#, kde-format
+msgid "Stop"
+msgstr "أوقف"
+
+#: src/widgets/VideoCaptureControls.qml:118
+#, kde-format
+msgid "Switch to Photo"
+msgstr "بدّل الصورة"
+
+#: src/widgets/VideoCaptureControls.qml:124
+#, kde-format
+msgid "Quit"
+msgstr "أنهِ"
+
+#: src/widgets/views/Browser.qml:117 src/widgets/views/PlacesSideBar.qml:127
+#, kde-format
+msgid "Open in new tab"
+msgstr "افتح في لسان جديد"
+
+#: src/widgets/views/Browser.qml:125 src/widgets/views/PlacesSideBar.qml:135
+#, kde-format
+msgid "Open in split view"
+msgstr "افتح في عرض منقسم"
+
+#: src/widgets/views/PlacesSideBar.qml:144
+#, kde-format
+msgid "Remove"
+msgstr "أزل"
+
+#: src/widgets/views/SettingsDialog.qml:13
+#, kde-format
+msgid "Navigation"
+msgstr "التّنقّل"
+
+#: src/widgets/views/SettingsDialog.qml:14
+#, kde-format
+msgid "Configure the app plugins and behavior."
+msgstr "اضبط ملحقات التطبيق والسلوك"
+
+#: src/widgets/views/SettingsDialog.qml:18
+#, kde-format
+msgid "Thumbnails"
+msgstr "المصغّرات"
+
+#: src/widgets/views/SettingsDialog.qml:19
+#, kde-format
+msgid "Show previews of images, videos and PDF files"
+msgstr "اعرض معاينات الصور ومقاطع الفيديو وملفات بي دي إف"
+
+#: src/widgets/views/SettingsDialog.qml:33
+#, kde-format
+msgid "Hidden Files"
+msgstr "الملفّات المخفيّة"
+
+#: src/widgets/views/SettingsDialog.qml:34
+#, kde-format
+msgid "List hidden files"
+msgstr "اسرد الملفّات المخفيّة"
+
+#: src/widgets/views/SettingsDialog.qml:48
+#, kde-format
+msgid "Single Click"
+msgstr "النقر المفرد"
+
+#: src/widgets/views/SettingsDialog.qml:49
+#, kde-format
+msgid "Open files with a single or double click"
+msgstr "افتح الملفات بالنقر المفرد أو المزدوج"
+
+#: src/widgets/views/SettingsDialog.qml:67
+#, kde-format
+msgid "Save Session"
+msgstr "احفظ الجلسة"
+
+#: src/widgets/views/SettingsDialog.qml:68
+#, kde-format
+msgid "Save and restore tabs"
+msgstr "احفظ واسترجع الألسنة"
+
+#: src/widgets/views/SettingsDialog.qml:87
+#, kde-format
+msgid "Interface"
+msgstr "الواجهة"
+
+#: src/widgets/views/SettingsDialog.qml:88
+#, kde-format
+msgid "Configure the app UI."
+msgstr "اضبط واجهة التطبيق"
+
+#: src/widgets/views/SettingsDialog.qml:93
+#, kde-format
+msgid "Grid Size"
+msgstr "حجم الشبكة"
+
+#: src/widgets/views/SettingsDialog.qml:94
+#, kde-format
+msgid "Thumbnails size in the grid view"
+msgstr "حجم المصغرات في عرض الشبكة"
+
+#: src/widgets/views/SettingsDialog.qml:119
+#, kde-format
+msgid "S"
+msgstr "ص"
+
+#: src/widgets/views/SettingsDialog.qml:125
+#, kde-format
+msgid "M"
+msgstr "م"
+
+#: src/widgets/views/SettingsDialog.qml:131
+#, kde-format
+msgid "X"
+msgstr "ك"
+
+#: src/widgets/views/SettingsDialog.qml:137
+#, kde-format
+msgid "XL"
+msgstr "ع"
+
+#: src/widgets/views/SettingsDialog.qml:145
+#, kde-format
+msgid "Sidebar always visible"
+msgstr "الشريط الجانبي دائما مرئي"
+
+#: src/widgets/views/SettingsDialog.qml:146
+#, kde-format
+msgid "Keep sidebar on constrained spaces"
+msgstr "احتفظ بالشريط الجانبي في المساحات الضيقة"
+
+#: src/widgets/views/SettingsDialog.qml:182
+#, kde-format
+msgid "Dark Mode"
+msgstr "نمط داكن"
