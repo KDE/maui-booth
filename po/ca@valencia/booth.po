@@ -22,7 +22,7 @@ msgstr ""
 #: src/main.cpp:56
 #, kde-format
 msgid "Camera app to take pictures and record videos."
-msgstr "Aplicació de càmera per a prendre fotografies i enregistrar vídeos."
+msgstr "Aplicació de càmera per a prendre fotografies i gravar vídeos."
 
 #: src/main.cpp:61
 #, kde-format
