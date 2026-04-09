@@ -12,8 +12,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 21.12.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #: src/main.cpp:56
 #, kde-format
@@ -26,60 +26,59 @@ msgid "Developer"
 msgstr "Vývojár"
 
 #: src/main.qml:89
-#, fuzzy, kde-format
-#| msgid "Dark Mode"
+#, kde-format
 msgid "Mode"
-msgstr "Tmavý režim"
+msgstr "Režim"
 
 #: src/main.qml:102 src/main.qml:234
 #, kde-format
 msgid "Manual"
-msgstr ""
+msgstr "Ručná"
 
 #: src/main.qml:103
 #, kde-format
 msgid "Hyperfocal"
-msgstr ""
+msgstr "Hyperfocal"
 
 #: src/main.qml:104
 #, kde-format
 msgid "Infinity"
-msgstr ""
+msgstr "Infinity"
 
 #: src/main.qml:105 src/main.qml:133
 #, kde-format
 msgid "Auto"
-msgstr ""
+msgstr "Automaticky"
 
 #: src/main.qml:106
 #, kde-format
 msgid "Continuous"
-msgstr ""
+msgstr "Prispievatelia"
 
 #: src/main.qml:107
 #, kde-format
 msgid "Macro"
-msgstr ""
+msgstr "Makro"
 
 #: src/main.qml:121
 #, kde-format
 msgid "Point"
-msgstr ""
+msgstr "Bod"
 
 #: src/main.qml:134
 #, kde-format
 msgid "Center"
-msgstr ""
+msgstr "Vycentrovať"
 
 #: src/main.qml:135
 #, kde-format
 msgid "Face Detection"
-msgstr ""
+msgstr "Detekcia tváre"
 
 #: src/main.qml:136
 #, kde-format
 msgid "Custom"
-msgstr ""
+msgstr "Vlastné"
 
 #: src/main.qml:178
 #, kde-format
@@ -89,7 +88,7 @@ msgstr ""
 #: src/main.qml:187
 #, kde-format
 msgid "Resolutions"
-msgstr ""
+msgstr "Rozlíšenia"
 
 #: src/main.qml:214
 #, kde-format
@@ -104,62 +103,61 @@ msgstr "Video"
 #: src/main.qml:279
 #, kde-format
 msgid "Settings"
-msgstr ""
+msgstr "Nastavenia"
 
 #: src/main.qml:286
 #, kde-format
 msgid "About"
-msgstr ""
+msgstr "O aplikácii"
 
 #: src/main.qml:393
 #, kde-format
 msgid "Aperture"
-msgstr ""
+msgstr "Clona"
 
 #: src/main.qml:398
 #, kde-format
 msgid "ISO"
-msgstr ""
+msgstr "ISO"
 
 #: src/main.qml:403
 #, kde-format
 msgid "Shutter"
-msgstr ""
+msgstr "Spúšť"
 
 #: src/main.qml:408
 #, kde-format
 msgid "Modes"
-msgstr ""
+msgstr "Režim"
 
 #: src/main.qml:413
 #, kde-format
 msgid "Brightness"
-msgstr ""
+msgstr "Jas"
 
 #: src/main.qml:418
 #, kde-format
 msgid "White Balance"
-msgstr ""
+msgstr "Vyváženie bielej"
 
 #: src/main.qml:424
 #, kde-format
 msgid "Contrast"
-msgstr ""
+msgstr "Kontrast"
 
 #: src/main.qml:429
-#, fuzzy, kde-format
-#| msgid "Navigation"
+#, kde-format
 msgid "Saturation"
-msgstr "Navigácia"
+msgstr "Sýtosť"
 
 #: src/main.qml:434
 #, kde-format
 msgid "Filters"
-msgstr ""
+msgstr "Filtre"
 
 #: src/widgets/PhotoCaptureControls.qml:122
 #: src/widgets/VideoCaptureControls.qml:95
-#, fuzzy, kde-format
+#, kde-format
 msgid "View"
 msgstr "Zobraziť"
 
@@ -174,9 +172,9 @@ msgid "Switch to Photo"
 msgstr ""
 
 #: src/widgets/VideoCaptureControls.qml:124
-#, fuzzy, kde-format
+#, kde-format
 msgid "Quit"
-msgstr "Ukončiť"
+msgstr "Koniec"
 
 #: src/widgets/views/Browser.qml:117 src/widgets/views/PlacesSideBar.qml:127
 #, kde-format
@@ -221,7 +219,7 @@ msgstr "Skryté súbory"
 #: src/widgets/views/SettingsDialog.qml:34
 #, kde-format
 msgid "List hidden files"
-msgstr ""
+msgstr "Zoznam skryté súbory"
 
 #: src/widgets/views/SettingsDialog.qml:48
 #, kde-format
@@ -302,7 +300,6 @@ msgstr "Tmavý režim"
 #~ msgstr "Booth"
 
 #, fuzzy
-#~| msgid "© 2020 Nitrux Development Team"
 #~ msgid "© 2020 - %1 Maui Development Team"
 #~ msgstr "© 2020 Vývojový tím Nitrux"
 
