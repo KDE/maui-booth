@@ -18,7 +18,7 @@ msgstr ""
 #: src/main.cpp:56
 #, kde-format
 msgid "Camera app to take pictures and record videos."
-msgstr ""
+msgstr "Aplikácia s kamerou na fotografovanie a nahrávanie videí."
 
 #: src/main.cpp:61
 #, kde-format
@@ -83,7 +83,7 @@ msgstr "Vlastné"
 #: src/main.qml:178
 #, kde-format
 msgid "Read QR"
-msgstr ""
+msgstr "Čítať QR"
 
 #: src/main.qml:187
 #, kde-format
@@ -169,7 +169,7 @@ msgstr "Zastaviť"
 #: src/widgets/VideoCaptureControls.qml:118
 #, kde-format
 msgid "Switch to Photo"
-msgstr ""
+msgstr "Prepnúť na fotografiu"
 
 #: src/widgets/VideoCaptureControls.qml:124
 #, kde-format
@@ -229,7 +229,7 @@ msgstr "Jeden klik"
 #: src/widgets/views/SettingsDialog.qml:49
 #, kde-format
 msgid "Open files with a single or double click"
-msgstr ""
+msgstr "Otvárať súbory jedným alebo dvojitým kliknutím"
 
 #: src/widgets/views/SettingsDialog.qml:67
 #, kde-format
@@ -259,7 +259,7 @@ msgstr "Veľkosť mriežky"
 #: src/widgets/views/SettingsDialog.qml:94
 #, kde-format
 msgid "Thumbnails size in the grid view"
-msgstr ""
+msgstr "Veľkosť miniatúr v zobrazení mriežky"
 
 #: src/widgets/views/SettingsDialog.qml:119
 #, kde-format
@@ -284,12 +284,12 @@ msgstr "XL"
 #: src/widgets/views/SettingsDialog.qml:145
 #, kde-format
 msgid "Sidebar always visible"
-msgstr ""
+msgstr "Bočný panel vždy viditeľný"
 
 #: src/widgets/views/SettingsDialog.qml:146
 #, kde-format
 msgid "Keep sidebar on constrained spaces"
-msgstr ""
+msgstr "Ponechať bočný panel v obmedzených priestoroch"
 
 #: src/widgets/views/SettingsDialog.qml:182
 #, kde-format
