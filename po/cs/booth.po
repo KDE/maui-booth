@@ -1,21 +1,22 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2026 This file is copyright:
 # This file is distributed under the same license as the maui-booth package.
 # Vit Pelcak <vit@pelcak.org>, 2021, 2022, 2023.
+# SPDX-FileCopyrightText: 2026 Libor Filípek <libor.filipek@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: maui-booth\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:51+0000\n"
-"PO-Revision-Date: 2023-03-04 23:31+0100\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"PO-Revision-Date: 2026-05-21 11:08+0200\n"
+"Last-Translator: Libor Filípek <libor.filipek@gmail.com>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 22.12.2\n"
+"X-Generator: Lokalize 26.04.1\n"
 
 #: src/main.cpp:56
 #, kde-format
@@ -125,7 +126,7 @@ msgstr "ISO"
 #: src/main.qml:403
 #, kde-format
 msgid "Shutter"
-msgstr ""
+msgstr "Závěrka"
 
 #: src/main.qml:408
 #, kde-format
@@ -172,7 +173,7 @@ msgstr "Zastavit"
 #: src/widgets/VideoCaptureControls.qml:118
 #, kde-format
 msgid "Switch to Photo"
-msgstr ""
+msgstr "Přepnout na fotografii"
 
 #: src/widgets/VideoCaptureControls.qml:124
 #, kde-format
@@ -212,7 +213,7 @@ msgstr "Miniatury"
 #: src/widgets/views/SettingsDialog.qml:19
 #, kde-format
 msgid "Show previews of images, videos and PDF files"
-msgstr ""
+msgstr "Zobrazit náhledy obrázků, videí a souborů PDF"
 
 #: src/widgets/views/SettingsDialog.qml:33
 #, kde-format
@@ -222,7 +223,7 @@ msgstr "Skryté soubory"
 #: src/widgets/views/SettingsDialog.qml:34
 #, kde-format
 msgid "List hidden files"
-msgstr ""
+msgstr "Seznam skrytých souborů"
 
 #: src/widgets/views/SettingsDialog.qml:48
 #, kde-format
@@ -232,7 +233,7 @@ msgstr "Jedno kliknutí"
 #: src/widgets/views/SettingsDialog.qml:49
 #, kde-format
 msgid "Open files with a single or double click"
-msgstr ""
+msgstr "Otevřít soubory jedním nebo dvojitým kliknutím"
 
 #: src/widgets/views/SettingsDialog.qml:67
 #, kde-format
@@ -252,7 +253,7 @@ msgstr "Rozhraní"
 #: src/widgets/views/SettingsDialog.qml:88
 #, kde-format
 msgid "Configure the app UI."
-msgstr ""
+msgstr "Nastavte uživatelské rozhraní aplikace."
 
 #: src/widgets/views/SettingsDialog.qml:93
 #, kde-format
@@ -262,7 +263,7 @@ msgstr "Velikost mřížky"
 #: src/widgets/views/SettingsDialog.qml:94
 #, kde-format
 msgid "Thumbnails size in the grid view"
-msgstr ""
+msgstr "Velikost miniatur v zobrazení mřížky"
 
 #: src/widgets/views/SettingsDialog.qml:119
 #, kde-format
@@ -287,12 +288,12 @@ msgstr "XL"
 #: src/widgets/views/SettingsDialog.qml:145
 #, kde-format
 msgid "Sidebar always visible"
-msgstr ""
+msgstr "Postranní panel vždy viditelný"
 
 #: src/widgets/views/SettingsDialog.qml:146
 #, kde-format
 msgid "Keep sidebar on constrained spaces"
-msgstr ""
+msgstr "Zachovat postranní panel v omezených prostorech"
 
 #: src/widgets/views/SettingsDialog.qml:182
 #, kde-format
