@@ -41,6 +41,7 @@
   <summary xml:lang="ar">التقط الصور ومقاطع الفيديو</summary>
   <summary xml:lang="ca">Pren fotografies o vídeos</summary>
   <summary xml:lang="ca-valencia">Pren fotografies o vídeos</summary>
+  <summary xml:lang="cs">Pořizujte fotografie a videa</summary>
   <summary xml:lang="de">Bilder und Videos aufnehmen</summary>
   <summary xml:lang="en-GB">Take pictures and videos</summary>
   <summary xml:lang="eo">Preni fotojn kaj videojn</summary>
@@ -75,6 +76,7 @@
     <p xml:lang="ar">كشك هو تطبيق كاميرا متكيف.</p>
     <p xml:lang="ca">Booth és una aplicació convergent de càmera.</p>
     <p xml:lang="ca-valencia">Booth és una aplicació convergent de càmera.</p>
+    <p xml:lang="cs">Booth je konvergentní aplikace fotoaparátu.</p>
     <p xml:lang="de">Booth ist eine konvergente Kamera-App.</p>
     <p xml:lang="en-GB">Booth is a convergent camera app.</p>
     <p xml:lang="eo">Booth estas konverĝa kamerao-app.</p>
@@ -113,6 +115,7 @@
       <caption xml:lang="ar">تطبيق كاميرا كشك</caption>
       <caption xml:lang="ca">Aplicació de càmera Booth</caption>
       <caption xml:lang="ca-valencia">Aplicació de càmera Booth</caption>
+      <caption xml:lang="cs">Aplikace fotoaparátu Booth</caption>
       <caption xml:lang="de">Booth-Kamera-App</caption>
       <caption xml:lang="en-GB">Booth camera app</caption>
       <caption xml:lang="eo">Booth kamerao-app</caption>
