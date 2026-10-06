@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2026 This file is copyright:
 # This file is distributed under the same license as the maui-booth package.
-# Shinjo Park <kde@peremen.name>, 2021, 2022, 2023.
+# SPDX-FileCopyrightText: 2021, 2022, 2023, 2026 Shinjo Park <kde@peremen.name>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: maui-booth\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:51+0000\n"
-"PO-Revision-Date: 2023-07-26 00:26+0200\n"
+"PO-Revision-Date: 2026-10-05 21:52+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #: src/main.cpp:56
 #, kde-format
@@ -256,12 +256,12 @@ msgstr "앱 UI를 설정합니다."
 #: src/widgets/views/SettingsDialog.qml:93
 #, kde-format
 msgid "Grid Size"
-msgstr "모눈 크기"
+msgstr "격자 크기"
 
 #: src/widgets/views/SettingsDialog.qml:94
 #, kde-format
 msgid "Thumbnails size in the grid view"
-msgstr "모눈 보기에서 섬네일 크기"
+msgstr "격자 보기에서 섬네일 크기"
 
 #: src/widgets/views/SettingsDialog.qml:119
 #, kde-format
